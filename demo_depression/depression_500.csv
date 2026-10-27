@@ -1,0 +1,501 @@
+"id","Gender","Age","City","Profession","Academic.Pressure","Work.Pressure","CGPA","Study.Satisfaction","Job.Satisfaction","Sleep.Duration","Dietary.Habits","Degree","Have.you.ever.had.suicidal.thoughts..","Work.Study.Hours","Financial.Stress","Family.History.of.Mental.Illness","Depression"
+137043,"Female",33,"Ludhiana","Student",1,0,8.56,5,0,"7-8 hours","Healthy","M.Pharm","No",5,2,"Yes",0
+94906,"Male",30,"Agra","Student",5,0,9.34,1,0,"7-8 hours","Moderate","M.Pharm","Yes",4,4,"Yes",1
+109402,"Male",27,"Ludhiana","Student",2,0,9.43,4,0,"7-8 hours","Healthy","B.Pharm","No",10,3,"No",1
+46842,"Male",23,"Thane","Student",3,0,7.1,3,0,"Less than 5 hours","Healthy","BE","No",9,2,"No",0
+6507,"Male",26,"Ahmedabad","Student",4,0,9.56,2,0,"7-8 hours","Unhealthy","PhD","Yes",1,3,"Yes",0
+78317,"Female",28,"Thane","Student",3,0,5.77,1,0,"More than 8 hours","Healthy","M.Tech","Yes",8,4,"No",1
+44494,"Male",24,"Delhi","Student",5,0,8.59,1,0,"More than 8 hours","Unhealthy","BHM","No",12,4,"Yes",1
+52116,"Male",24,"Lucknow","Student",1,0,7.47,5,0,"7-8 hours","Moderate","B.Arch","No",11,2,"No",0
+68172,"Female",24,"Jaipur","Student",5,0,7.68,5,0,"5-6 hours","Healthy","BA","Yes",2,4,"No",0
+72585,"Male",29,"Kalyan","Student",3,0,8.74,1,0,"5-6 hours","Unhealthy","M.Ed","Yes",0,4,"No",1
+84648,"Female",18,"Varanasi","Student",5,0,5.98,4,0,"7-8 hours","Unhealthy","Class 12","Yes",12,4,"No",1
+38709,"Female",28,"Hyderabad","Student",3,0,9.44,4,0,"7-8 hours","Unhealthy","MBA","Yes",5,3,"Yes",1
+19794,"Female",19,"Kalyan","Student",1,0,5.74,5,0,"Less than 5 hours","Healthy","Class 12","No",7,2,"No",0
+133556,"Female",25,"Bhopal","Student",4,0,9.96,1,0,"Less than 5 hours","Healthy","MA","No",9,4,"Yes",1
+45838,"Female",23,"Bhopal","Student",3,0,8.65,2,0,"Less than 5 hours","Unhealthy","MBBS","Yes",2,1,"Yes",1
+27254,"Female",34,"Mumbai","Student",4,0,9.96,1,0,"Less than 5 hours","Unhealthy","LLM","Yes",9,3,"No",1
+4826,"Male",28,"Ghaziabad","Student",1,0,9.33,3,0,"Less than 5 hours","Unhealthy","B.Pharm","No",4,1,"No",0
+128926,"Male",33,"Vadodara","Student",1,0,8.74,2,0,"More than 8 hours","Healthy","MBBS","No",0,3,"No",0
+134150,"Male",20,"Kolkata","Student",2,0,7.25,3,0,"Less than 5 hours","Unhealthy","Class 12","No",0,4,"No",0
+111225,"Female",33,"Ludhiana","Student",3,0,5.16,4,0,"7-8 hours","Healthy","BCA","No",11,2,"Yes",0
+78607,"Female",23,"Kalyan","Student",1,0,9.96,2,0,"5-6 hours","Unhealthy","B.Com","Yes",7,3,"No",1
+103220,"Male",19,"Chennai","Student",5,0,8.47,3,0,"Less than 5 hours","Moderate","Class 12","Yes",11,4,"Yes",1
+128182,"Male",27,"Vasai-Virar","Student",5,0,8.52,2,0,"5-6 hours","Unhealthy","MBA","Yes",12,1,"Yes",1
+61260,"Male",24,"Jaipur","Student",2,0,7.64,3,0,"7-8 hours","Unhealthy","B.Com","Yes",5,2,"No",1
+1255,"Female",25,"Rajkot","Student",4,0,8.53,3,0,"Less than 5 hours","Healthy","BA","No",2,1,"No",0
+110145,"Female",20,"Chennai","Student",2,0,7.02,1,0,"Less than 5 hours","Healthy","Class 12","Yes",8,5,"No",0
+2444,"Female",30,"Agra","Student",5,0,9.39,5,0,"Less than 5 hours","Moderate","PhD","No",12,1,"No",0
+68967,"Male",23,"Chennai","Student",2,0,8.52,4,0,"Less than 5 hours","Moderate","BCA","Yes",3,3,"No",0
+134413,"Male",29,"Hyderabad","Student",5,0,6.03,2,0,"Less than 5 hours","Unhealthy","B.Arch","Yes",7,4,"Yes",1
+36854,"Male",24,"Vasai-Virar","Student",3,0,8.95,2,0,"More than 8 hours","Healthy","MSc","No",6,1,"Yes",0
+125291,"Male",26,"Bangalore","Student",4,0,9.96,2,0,"7-8 hours","Moderate","MSc","Yes",8,5,"No",1
+12500,"Male",22,"Kanpur","Student",2,0,9.49,4,0,"Less than 5 hours","Healthy","MSc","Yes",3,1,"Yes",1
+128029,"Male",32,"Chennai","Student",1,0,7.48,4,0,"7-8 hours","Healthy","B.Com","No",6,3,"No",0
+46297,"Female",20,"Bangalore","Student",2,0,5.67,5,0,"7-8 hours","Moderate","Class 12","Yes",12,5,"No",1
+39141,"Male",24,"Thane","Student",3,0,7.77,4,0,"Less than 5 hours","Moderate","BA","Yes",12,5,"No",1
+110329,"Female",29,"Patna","Student",3,0,6.37,4,0,"7-8 hours","Healthy","B.Ed","No",10,5,"Yes",0
+114568,"Male",30,"Kolkata","Student",3,0,8.95,4,0,"5-6 hours","Moderate","BSc","Yes",10,3,"No",0
+131708,"Female",24,"Bangalore","Student",1,0,9.79,3,0,"More than 8 hours","Moderate","B.Ed","No",3,5,"Yes",1
+94511,"Male",29,"Thane","Student",5,0,7.52,2,0,"7-8 hours","Healthy","LLM","Yes",12,3,"Yes",1
+13015,"Male",26,"Srinagar","Student",4,0,7.77,5,0,"5-6 hours","Healthy","BA","No",3,5,"Yes",0
+82518,"Male",22,"Visakhapatnam","Student",5,0,7.22,1,0,"More than 8 hours","Unhealthy","MSc","Yes",11,3,"Yes",1
+58693,"Female",22,"Ahmedabad","Student",1,0,5.58,5,0,"7-8 hours","Moderate","B.Arch","No",1,1,"Yes",0
+56853,"Female",21,"Kolkata","Student",5,0,7.21,1,0,"7-8 hours","Moderate","B.Arch","Yes",12,4,"Yes",1
+86674,"Male",18,"Srinagar","Student",3,0,9.88,2,0,"7-8 hours","Unhealthy","Class 12","Yes",11,1,"No",1
+4901,"Female",33,"Kolkata","Student",2,0,7.53,5,0,"More than 8 hours","Moderate","M.Pharm","Yes",0,4,"No",1
+58154,"Male",30,"Patna","Student",3,0,9.54,2,0,"7-8 hours","Healthy","BSc","Yes",11,5,"Yes",1
+86169,"Female",29,"Bhopal","Student",1,0,8.96,4,0,"7-8 hours","Moderate","Class 12","No",11,5,"Yes",0
+21853,"Male",21,"Agra","Student",5,0,9.89,2,0,"More than 8 hours","Moderate","B.Ed","No",12,1,"No",0
+115537,"Male",21,"Kalyan","Student",1,0,7.92,3,0,"Less than 5 hours","Healthy","B.Com","Yes",4,3,"No",1
+62746,"Male",19,"Bangalore","Student",3,0,9.95,4,0,"5-6 hours","Healthy","Class 12","No",7,5,"No",1
+89974,"Female",18,"Bhopal","Student",4,0,6.59,5,0,"7-8 hours","Unhealthy","Class 12","Yes",5,5,"No",1
+108594,"Male",23,"Ahmedabad","Student",5,0,9.93,4,0,"Less than 5 hours","Moderate","BBA","Yes",3,3,"No",1
+64050,"Female",26,"Vasai-Virar","Student",4,0,5.56,5,0,"Less than 5 hours","Unhealthy","BA","No",7,1,"Yes",0
+79689,"Male",34,"Pune","Student",4,0,5.46,3,0,"7-8 hours","Moderate","MCA","Yes",5,3,"Yes",1
+14311,"Female",30,"Kalyan","Student",4,0,7.53,2,0,"Less than 5 hours","Healthy","MSc","Yes",9,2,"Yes",1
+46451,"Male",20,"Chennai","Student",5,0,8.91,1,0,"Less than 5 hours","Unhealthy","Class 12","Yes",10,3,"Yes",1
+71729,"Male",19,"Ludhiana","Student",2,0,8.24,4,0,"7-8 hours","Healthy","Class 12","No",8,4,"No",0
+65480,"Male",21,"Jaipur","Student",5,0,7.22,1,0,"7-8 hours","Unhealthy","B.Arch","No",1,4,"No",1
+72680,"Female",32,"Vasai-Virar","Student",5,0,5.16,5,0,"More than 8 hours","Moderate","LLB","No",12,4,"No",0
+2689,"Female",23,"Jaipur","Student",1,0,9.91,4,0,"More than 8 hours","Unhealthy","B.Com","Yes",7,5,"No",0
+124003,"Male",26,"Delhi","Student",4,0,10,3,0,"More than 8 hours","Unhealthy","BHM","No",6,1,"No",0
+140413,"Female",21,"Lucknow","Student",1,0,7.39,2,0,"Less than 5 hours","Unhealthy","Class 12","Yes",12,4,"No",1
+541,"Male",34,"Kolkata","Student",2,0,7.51,5,0,"Less than 5 hours","Moderate","MSc","No",7,1,"Yes",0
+26993,"Male",22,"Thane","Student",3,0,8.95,1,0,"Less than 5 hours","Moderate","BCA","Yes",5,5,"No",1
+52410,"Female",21,"Bangalore","Student",4,0,9.37,3,0,"More than 8 hours","Moderate","MCA","Yes",3,4,"No",1
+118550,"Female",21,"Thane","Student",1,0,7.94,1,0,"More than 8 hours","Healthy","MSc","No",8,3,"Yes",0
+48136,"Female",24,"Nashik","Student",2,0,6.99,4,0,"More than 8 hours","Healthy","BA","No",11,3,"No",0
+91473,"Male",24,"Pune","Student",1,0,6.03,2,0,"Less than 5 hours","Moderate","MBA","No",2,3,"No",0
+20852,"Male",33,"Lucknow","Student",5,0,5.79,2,0,"More than 8 hours","Unhealthy","B.Ed","Yes",12,1,"Yes",1
+77275,"Male",24,"Pune","Student",5,0,6.53,2,0,"5-6 hours","Healthy","B.Pharm","Yes",10,2,"No",1
+29632,"Female",22,"Agra","Student",3,0,8.52,2,0,"5-6 hours","Healthy","MCA","Yes",12,2,"Yes",1
+28279,"Female",28,"Ludhiana","Student",4,0,9.89,4,0,"7-8 hours","Unhealthy","B.Tech","Yes",12,4,"Yes",1
+101307,"Male",23,"Surat","Student",1,0,8.95,3,0,"Less than 5 hours","Healthy","MSc","No",2,1,"Yes",0
+55608,"Male",22,"Mumbai","Student",1,0,9.24,3,0,"5-6 hours","Healthy","BHM","No",6,5,"No",0
+106,"Male",29,"Srinagar","Student",3,0,8.58,3,0,"More than 8 hours","Moderate","M.Tech","Yes",10,2,"Yes",1
+69219,"Male",24,"Surat","Student",1,0,9.44,3,0,"7-8 hours","Unhealthy","B.Arch","No",3,2,"No",0
+77378,"Female",23,"Jaipur","Student",2,0,5.56,3,0,"Less than 5 hours","Unhealthy","MBA","No",12,3,"No",1
+110196,"Male",21,"Agra","Student",1,0,7.24,1,0,"Less than 5 hours","Unhealthy","MSc","No",7,5,"No",0
+5092,"Male",30,"Thane","Student",5,0,7.15,3,0,"Less than 5 hours","Moderate","LLB","Yes",6,2,"Yes",1
+80834,"Female",24,"Kanpur","Student",2,0,9.6,3,0,"Less than 5 hours","Unhealthy","MBA","Yes",1,5,"No",1
+39237,"Female",34,"Indore","Student",2,0,8.52,4,0,"More than 8 hours","Healthy","B.Tech","No",6,3,"Yes",0
+41696,"Male",25,"Varanasi","Student",4,0,7.77,4,0,"7-8 hours","Unhealthy","Class 12","No",12,5,"No",0
+71939,"Male",25,"Thane","Student",1,0,9.67,4,0,"Less than 5 hours","Healthy","M.Tech","Yes",0,2,"No",0
+71787,"Female",28,"Rajkot","Student",4,0,5.88,4,0,"7-8 hours","Moderate","MA","No",10,2,"No",1
+128503,"Male",21,"Surat","Student",5,0,5.6,1,0,"Less than 5 hours","Healthy","B.Arch","Yes",4,2,"Yes",1
+79467,"Female",22,"Bhopal","Student",2,0,9.39,2,0,"More than 8 hours","Moderate","M.Pharm","No",10,2,"Yes",0
+77119,"Female",28,"Pune","Student",4,0,5.16,2,0,"More than 8 hours","Unhealthy","BHM","Yes",12,5,"No",1
+11974,"Female",18,"Vasai-Virar","Student",5,0,9.88,2,0,"7-8 hours","Unhealthy","Class 12","Yes",7,5,"No",1
+744,"Male",30,"Ludhiana","Student",5,0,5.67,3,0,"Less than 5 hours","Moderate","B.Tech","Yes",4,1,"No",1
+35927,"Female",23,"Thane","Student",2,0,5.16,4,0,"More than 8 hours","Unhealthy","B.Com","Yes",0,1,"No",0
+111488,"Female",21,"Thane","Student",1,0,6.37,4,0,"5-6 hours","Moderate","B.Arch","Yes",9,1,"Yes",0
+83396,"Male",33,"Jaipur","Student",1,0,5.45,4,0,"More than 8 hours","Unhealthy","MA","No",3,5,"No",0
+11990,"Male",23,"Nagpur","Student",5,0,9.66,4,0,"7-8 hours","Unhealthy","MSc","No",8,4,"No",0
+12464,"Male",26,"Patna","Student",5,0,8.38,1,0,"Less than 5 hours","Unhealthy","LLM","No",11,5,"No",1
+508,"Female",25,"Ghaziabad","Student",2,0,7.09,4,0,"5-6 hours","Healthy","B.Arch","No",8,4,"Yes",0
+117484,"Female",22,"Agra","Student",3,0,8.53,4,0,"Less than 5 hours","Moderate","MA","Yes",6,2,"Yes",1
+36953,"Female",25,"Meerut","Student",3,0,6.75,2,0,"7-8 hours","Unhealthy","M.Tech","Yes",7,5,"Yes",1
+108865,"Male",33,"Delhi","Student",5,0,9.97,2,0,"7-8 hours","Moderate","LLM","No",9,3,"No",1
+117849,"Male",19,"Delhi","Student",3,0,5.99,4,0,"7-8 hours","Moderate","Class 12","No",3,3,"Yes",0
+135741,"Female",23,"Vadodara","Student",4,0,5.11,3,0,"Less than 5 hours","Unhealthy","MSc","Yes",6,2,"No",1
+24133,"Female",28,"Varanasi","Student",3,0,5.99,5,0,"7-8 hours","Moderate","M.Ed","Yes",5,2,"No",0
+29505,"Female",28,"Kolkata","Student",4,0,5.7,5,0,"More than 8 hours","Healthy","MCA","Yes",2,3,"Yes",0
+72769,"Male",27,"Kolkata","Student",3,0,8.65,3,0,"7-8 hours","Healthy","MBA","Yes",11,3,"Yes",1
+130392,"Female",33,"Srinagar","Student",1,0,8.35,3,0,"7-8 hours","Moderate","BSc","No",3,3,"No",0
+138520,"Male",24,"Patna","Student",5,0,9.95,1,0,"7-8 hours","Moderate","MSc","Yes",8,5,"Yes",1
+77229,"Male",25,"Jaipur","Student",4,0,9.93,4,0,"7-8 hours","Moderate","PhD","Yes",5,4,"No",1
+74313,"Male",24,"Pune","Student",3,0,5.32,4,0,"7-8 hours","Moderate","B.Com","Yes",7,2,"Yes",0
+133431,"Male",19,"Chennai","Student",4,0,9.42,3,0,"More than 8 hours","Unhealthy","Class 12","No",11,2,"No",0
+34015,"Male",26,"Bhopal","Student",4,0,5.56,3,0,"Less than 5 hours","Healthy","Class 12","No",12,2,"No",0
+43511,"Male",24,"Bangalore","Student",3,0,8.25,1,0,"7-8 hours","Unhealthy","B.Tech","Yes",0,3,"Yes",0
+115821,"Male",25,"Lucknow","Student",3,0,6.75,2,0,"More than 8 hours","Healthy","B.Pharm","Yes",7,5,"No",1
+26413,"Male",23,"Nagpur","Student",3,0,9.05,5,0,"5-6 hours","Unhealthy","MSc","Yes",11,4,"No",1
+106488,"Male",21,"Nagpur","Student",3,0,9.41,5,0,"Less than 5 hours","Healthy","MCA","Yes",4,3,"Yes",1
+37526,"Female",26,"Mumbai","Student",2,0,5.72,3,0,"More than 8 hours","Unhealthy","BE","Yes",6,3,"Yes",0
+87705,"Female",28,"Lucknow","Student",4,0,6.03,2,0,"More than 8 hours","Moderate","B.Tech","Yes",9,3,"No",1
+40821,"Female",30,"Srinagar","Student",2,0,7.46,5,0,"5-6 hours","Moderate","BSc","Yes",9,2,"Yes",1
+49089,"Male",29,"Thane","Student",2,0,5.27,3,0,"5-6 hours","Moderate","B.Tech","Yes",11,3,"Yes",1
+26558,"Male",28,"Jaipur","Student",5,0,6.17,1,0,"Less than 5 hours","Moderate","LLB","No",7,2,"Yes",1
+92709,"Male",33,"Ludhiana","Student",4,0,6.25,4,0,"7-8 hours","Moderate","M.Pharm","Yes",8,3,"Yes",1
+140076,"Female",24,"Delhi","Student",1,0,7.04,4,0,"Less than 5 hours","Healthy","B.Arch","No",11,3,"No",0
+105194,"Female",33,"Chennai","Student",1,0,7.09,3,0,"7-8 hours","Moderate","BE","Yes",6,1,"No",0
+56512,"Male",27,"Kolkata","Student",3,0,7.09,4,0,"7-8 hours","Moderate","B.Pharm","No",3,3,"No",0
+97463,"Male",24,"Faridabad","Student",5,0,8.54,2,0,"More than 8 hours","Moderate","B.Ed","Yes",8,3,"No",0
+49273,"Male",28,"Hyderabad","Student",4,0,7.09,3,0,"Less than 5 hours","Unhealthy","B.Com","Yes",8,2,"No",1
+72684,"Male",22,"Srinagar","Student",1,0,6.03,2,0,"7-8 hours","Unhealthy","M.Com","No",6,3,"No",0
+107332,"Male",26,"Patna","Student",3,0,5.24,1,0,"Less than 5 hours","Moderate","LLB","Yes",10,5,"No",1
+92509,"Female",32,"Bangalore","Student",4,0,8.95,1,0,"More than 8 hours","Moderate","M.Tech","Yes",4,2,"No",1
+130223,"Male",31,"Lucknow","Student",1,0,8.74,3,0,"Less than 5 hours","Unhealthy","B.Ed","Yes",9,5,"No",0
+59103,"Male",23,"Rajkot","Student",2,0,9.88,5,0,"More than 8 hours","Unhealthy","BBA","Yes",12,4,"Yes",1
+140290,"Female",21,"Kalyan","Student",1,0,6.82,1,0,"Less than 5 hours","Moderate","B.Arch","No",2,3,"No",0
+62267,"Female",28,"Visakhapatnam","Student",3,0,7.38,2,0,"5-6 hours","Unhealthy","MD","Yes",10,3,"Yes",1
+9765,"Female",30,"Chennai","Student",2,0,5.52,5,0,"More than 8 hours","Moderate","BHM","No",2,4,"No",0
+44849,"Female",32,"Visakhapatnam","Student",1,0,5.56,4,0,"Less than 5 hours","Healthy","MBA","No",11,4,"No",0
+59641,"Male",20,"Meerut","Student",1,0,5.76,4,0,"5-6 hours","Healthy","Class 12","No",12,5,"No",0
+16596,"Male",20,"Mumbai","Student",4,0,9.93,4,0,"More than 8 hours","Moderate","Class 12","Yes",10,4,"Yes",1
+33413,"Male",32,"Delhi","Student",5,0,9.88,4,0,"More than 8 hours","Moderate","LLB","No",8,5,"No",1
+65355,"Male",33,"Hyderabad","Student",2,0,9.6,1,0,"5-6 hours","Healthy","M.Ed","No",8,3,"Yes",0
+11798,"Male",18,"Thane","Student",1,0,5.71,3,0,"More than 8 hours","Moderate","Class 12","Yes",12,4,"No",0
+59479,"Female",22,"Agra","Student",5,0,8.04,5,0,"Less than 5 hours","Moderate","BA","Yes",7,3,"Yes",1
+105121,"Male",19,"Surat","Student",2,0,9.1,5,0,"Less than 5 hours","Unhealthy","Class 12","No",11,2,"No",0
+38303,"Male",33,"Ghaziabad","Student",4,0,7.91,2,0,"Less than 5 hours","Unhealthy","B.Com","Yes",9,3,"Yes",1
+61611,"Female",20,"Vadodara","Student",2,0,7.53,5,0,"7-8 hours","Moderate","Class 12","Yes",12,5,"Yes",0
+75869,"Male",28,"Varanasi","Student",2,0,8.62,2,0,"7-8 hours","Unhealthy","BBA","Yes",8,4,"Yes",1
+136105,"Female",29,"Bhopal","Student",2,0,8.28,3,0,"More than 8 hours","Unhealthy","B.Ed","Yes",12,1,"Yes",1
+136755,"Male",20,"Chennai","Student",4,0,6.08,4,0,"Less than 5 hours","Moderate","Class 12","Yes",1,1,"Yes",1
+45094,"Male",18,"Ahmedabad","Student",3,0,6.16,3,0,"More than 8 hours","Healthy","Class 12","Yes",7,4,"No",1
+107521,"Male",21,"Pune","Student",5,0,7.72,2,0,"Less than 5 hours","Moderate","MCA","Yes",11,4,"No",1
+30408,"Male",30,"Visakhapatnam","Student",5,0,8.58,5,0,"Less than 5 hours","Unhealthy","B.Com","Yes",6,5,"Yes",1
+97718,"Male",23,"Meerut","Student",5,0,6.21,1,0,"Less than 5 hours","Unhealthy","MCA","Yes",8,2,"Yes",1
+89272,"Female",34,"Srinagar","Student",4,0,5.16,5,0,"7-8 hours","Unhealthy","B.Ed","Yes",12,5,"No",1
+138106,"Female",31,"Bangalore","Student",2,0,6.65,3,0,"7-8 hours","Unhealthy","M.Com","Yes",3,5,"No",1
+119764,"Female",25,"Kolkata","Student",1,0,7.53,2,0,"More than 8 hours","Moderate","BHM","No",6,2,"No",0
+105105,"Female",33,"Agra","Student",4,0,8.04,2,0,"More than 8 hours","Healthy","BHM","Yes",7,1,"Yes",0
+86068,"Female",34,"Ludhiana","Student",5,0,7.8,2,0,"5-6 hours","Moderate","B.Ed","Yes",10,5,"Yes",1
+80291,"Male",34,"Surat","Student",3,0,8.95,4,0,"More than 8 hours","Moderate","BCA","No",2,2,"Yes",0
+82019,"Male",23,"Nashik","Student",1,0,5.32,2,0,"Less than 5 hours","Healthy","MSc","Yes",12,5,"No",1
+138081,"Male",20,"Ludhiana","Student",4,0,5.41,1,0,"More than 8 hours","Healthy","Class 12","Yes",8,3,"No",0
+97326,"Female",32,"Bangalore","Student",4,0,9.94,1,0,"More than 8 hours","Healthy","BCA","Yes",9,5,"No",1
+44122,"Female",30,"Patna","Student",5,0,8.91,4,0,"More than 8 hours","Unhealthy","ME","Yes",11,5,"No",1
+95441,"Male",23,"Kalyan","Student",1,0,6.74,5,0,"Less than 5 hours","Unhealthy","M.Tech","Yes",0,1,"No",0
+64531,"Female",31,"Srinagar","Student",5,0,8.74,2,0,"Less than 5 hours","Unhealthy","M.Ed","Yes",11,4,"No",1
+94312,"Female",33,"Kolkata","Student",1,0,5.86,5,0,"More than 8 hours","Moderate","MCA","No",9,1,"No",0
+42521,"Female",21,"Srinagar","Student",5,0,9.72,4,0,"Less than 5 hours","Moderate","B.Arch","Yes",2,5,"Yes",1
+42632,"Male",19,"Hyderabad","Student",3,0,8.11,1,0,"7-8 hours","Moderate","Class 12","Yes",7,4,"No",1
+23776,"Male",26,"Nashik","Student",2,0,6.78,2,0,"Less than 5 hours","Unhealthy","B.Com","No",0,2,"Yes",0
+17419,"Male",23,"Surat","Student",5,0,7.03,2,0,"Less than 5 hours","Unhealthy","BBA","Yes",6,3,"Yes",1
+10698,"Male",22,"Ludhiana","Student",3,0,7.53,1,0,"Less than 5 hours","Healthy","MCA","No",7,1,"Yes",0
+37013,"Female",29,"Chennai","Student",5,0,6.38,3,0,"7-8 hours","Moderate","M.Tech","Yes",3,4,"No",0
+80568,"Male",27,"Ludhiana","Student",5,0,8.9,1,0,"Less than 5 hours","Unhealthy","BSc","No",11,3,"Yes",1
+76406,"Male",20,"Vasai-Virar","Student",2,0,6.26,1,0,"5-6 hours","Unhealthy","Class 12","Yes",10,4,"No",1
+127166,"Male",19,"Vasai-Virar","Student",2,0,8.09,5,0,"More than 8 hours","Moderate","Class 12","No",11,2,"Yes",0
+5837,"Female",19,"Ahmedabad","Student",3,0,7.6,5,0,"5-6 hours","Moderate","Class 12","Yes",5,1,"No",1
+116323,"Male",26,"Bhopal","Student",5,0,8.9,5,0,"More than 8 hours","Unhealthy","PhD","Yes",2,4,"Yes",1
+52398,"Female",20,"Vadodara","Student",4,0,7.25,3,0,"More than 8 hours","Healthy","Class 12","Yes",9,5,"Yes",1
+83693,"Male",20,"Ghaziabad","Student",1,0,9.21,2,0,"Less than 5 hours","Unhealthy","Class 12","Yes",9,4,"Yes",1
+86219,"Male",31,"Patna","Student",2,0,6.38,4,0,"7-8 hours","Healthy","MBBS","Yes",9,3,"No",0
+14037,"Female",18,"Chennai","Student",5,0,6.08,4,0,"7-8 hours","Healthy","Class 12","Yes",12,4,"No",1
+49532,"Male",28,"Lucknow","Student",2,0,7.77,3,0,"7-8 hours","Moderate","B.Ed","Yes",2,1,"No",0
+111353,"Female",23,"Srinagar","Student",2,0,8.04,4,0,"More than 8 hours","Unhealthy","PhD","No",4,4,"Yes",1
+19976,"Male",19,"Meerut","Student",2,0,9.05,3,0,"Less than 5 hours","Unhealthy","Class 12","Yes",8,2,"No",1
+112023,"Female",29,"Lucknow","Student",4,0,8.04,1,0,"More than 8 hours","Unhealthy","M.Pharm","Yes",6,1,"Yes",1
+24501,"Female",21,"Pune","Student",5,0,5.06,4,0,"5-6 hours","Moderate","MHM","Yes",5,3,"Yes",1
+116776,"Female",28,"Hyderabad","Student",3,0,8.63,5,0,"7-8 hours","Moderate","BA","Yes",1,5,"No",1
+15720,"Female",33,"Jaipur","Student",3,0,6.75,5,0,"5-6 hours","Healthy","PhD","No",2,2,"No",0
+129714,"Female",22,"Patna","Student",3,0,8.46,4,0,"5-6 hours","Moderate","B.Arch","Yes",6,3,"No",1
+56978,"Male",18,"Pune","Student",4,0,6.7,1,0,"Less than 5 hours","Healthy","Class 12","Yes",11,3,"Yes",1
+14329,"Female",30,"Ludhiana","Student",3,0,5.82,1,0,"Less than 5 hours","Healthy","MBA","No",0,4,"No",0
+104077,"Female",24,"Ahmedabad","Student",4,0,8.59,3,0,"7-8 hours","Unhealthy","M.Tech","Yes",2,4,"No",1
+106158,"Male",23,"Hyderabad","Student",4,0,7.77,1,0,"5-6 hours","Unhealthy","B.Tech","Yes",8,4,"Yes",1
+101840,"Male",29,"Vasai-Virar","Student",3,0,9.4,5,0,"Less than 5 hours","Moderate","B.Arch","No",5,1,"Yes",0
+61382,"Male",28,"Srinagar","Student",3,0,9.71,1,0,"7-8 hours","Moderate","PhD","Yes",0,1,"Yes",0
+15967,"Female",24,"Vadodara","Student",3,0,6.37,4,0,"More than 8 hours","Moderate","B.Arch","No",9,3,"No",0
+81412,"Male",24,"Hyderabad","Student",1,0,8.04,2,0,"More than 8 hours","Moderate","MBBS","Yes",8,4,"No",0
+116039,"Male",21,"Lucknow","Student",2,0,9.87,3,0,"More than 8 hours","Moderate","BHM","Yes",12,5,"Yes",1
+52818,"Female",33,"Visakhapatnam","Student",1,0,9.44,4,0,"5-6 hours","Healthy","MHM","No",0,1,"Yes",0
+100956,"Female",33,"Delhi","Student",5,0,6.59,1,0,"More than 8 hours","Unhealthy","BBA","Yes",9,5,"Yes",1
+5982,"Female",33,"Indore","Student",2,0,5.45,5,0,"Less than 5 hours","Unhealthy","M.Ed","Yes",10,5,"Yes",1
+101027,"Male",29,"Delhi","Student",4,0,7.94,3,0,"5-6 hours","Unhealthy","BCA","Yes",10,4,"Yes",1
+28578,"Male",33,"Patna","Student",4,0,9.67,3,0,"7-8 hours","Unhealthy","M.Ed","Yes",6,1,"No",1
+122075,"Female",33,"Vasai-Virar","Student",5,0,8,4,0,"Less than 5 hours","Moderate","MCA","Yes",11,3,"Yes",1
+17956,"Male",29,"Lucknow","Student",2,0,7.09,5,0,"More than 8 hours","Unhealthy","B.Ed","No",0,3,"Yes",0
+139274,"Male",27,"Srinagar","Student",5,0,8.14,3,0,"Less than 5 hours","Unhealthy","B.Arch","Yes",11,5,"No",1
+22222,"Male",33,"Visakhapatnam","Student",4,0,9.21,4,0,"7-8 hours","Unhealthy","LLM","Yes",8,5,"Yes",1
+20159,"Female",33,"Hyderabad","Student",3,0,9.92,4,0,"7-8 hours","Moderate","BHM","Yes",11,3,"No",1
+23347,"Male",19,"Indore","Student",3,0,6.25,1,0,"5-6 hours","Healthy","Class 12","Yes",12,5,"No",1
+70102,"Female",18,"Kolkata","Student",3,0,8.38,4,0,"5-6 hours","Unhealthy","Class 12","Yes",12,5,"No",1
+16312,"Male",27,"Thane","Student",5,0,8.5,4,0,"7-8 hours","Moderate","B.Tech","Yes",5,2,"Yes",1
+52974,"Female",19,"Indore","Student",5,0,8.95,5,0,"More than 8 hours","Moderate","Class 12","Yes",4,4,"Yes",1
+49409,"Male",18,"Delhi","Student",3,0,9.93,5,0,"7-8 hours","Moderate","Class 12","Yes",9,4,"No",1
+110642,"Male",32,"Thane","Student",1,0,9.72,5,0,"Less than 5 hours","Moderate","BHM","No",10,5,"No",0
+62406,"Female",31,"Vadodara","Student",2,0,7.75,2,0,"5-6 hours","Unhealthy","M.Tech","Yes",10,5,"No",1
+89499,"Male",29,"Kolkata","Student",2,0,6.47,5,0,"5-6 hours","Moderate","MSc","No",1,5,"No",0
+10314,"Female",20,"Srinagar","Student",3,0,7.88,5,0,"Less than 5 hours","Unhealthy","Class 12","Yes",6,5,"No",1
+7189,"Female",27,"Patna","Student",5,0,8.56,3,0,"5-6 hours","Unhealthy","BHM","Yes",9,4,"No",1
+99190,"Female",20,"Indore","Student",3,0,8.95,3,0,"Less than 5 hours","Unhealthy","Class 12","Yes",3,3,"Yes",1
+36389,"Male",27,"Delhi","Student",4,0,5.32,5,0,"Less than 5 hours","Moderate","LLM","Yes",11,2,"No",1
+13308,"Male",24,"Lucknow","Student",5,0,7.09,1,0,"More than 8 hours","Unhealthy","B.Arch","Yes",5,4,"No",0
+23491,"Female",31,"Indore","Student",5,0,6.78,5,0,"7-8 hours","Unhealthy","B.Com","No",4,1,"No",0
+39173,"Male",20,"Chennai","Student",3,0,5.75,5,0,"7-8 hours","Unhealthy","Class 12","Yes",7,4,"No",1
+71244,"Male",34,"Nagpur","Student",5,0,5.75,1,0,"7-8 hours","Healthy","B.Ed","Yes",10,4,"Yes",1
+40725,"Female",19,"Bhopal","Student",3,0,8.96,4,0,"7-8 hours","Moderate","Class 12","No",3,2,"No",0
+103216,"Female",19,"Patna","Student",4,0,7.25,4,0,"5-6 hours","Moderate","Class 12","Yes",12,5,"No",1
+8,"Female",24,"Bangalore","Student",2,0,5.9,5,0,"5-6 hours","Moderate","BSc","No",3,2,"Yes",0
+44716,"Female",30,"Lucknow","Student",4,0,5.46,3,0,"Less than 5 hours","Healthy","B.Com","Yes",6,1,"No",0
+121793,"Male",29,"Kolkata","Student",2,0,5.85,2,0,"More than 8 hours","Healthy","M.Com","Yes",0,1,"Yes",0
+68169,"Female",25,"Bangalore","Student",2,0,5.76,4,0,"Less than 5 hours","Moderate","BE","Yes",10,4,"Yes",1
+127693,"Male",23,"Meerut","Student",5,0,8.75,4,0,"5-6 hours","Unhealthy","B.Tech","No",0,2,"No",1
+45048,"Male",20,"Meerut","Student",2,0,5.38,2,0,"Less than 5 hours","Healthy","Class 12","Yes",4,5,"No",1
+94692,"Male",34,"Vasai-Virar","Student",3,0,5.12,5,0,"7-8 hours","Unhealthy","LLB","No",5,5,"No",0
+44859,"Female",20,"Ludhiana","Student",4,0,5.37,3,0,"5-6 hours","Healthy","Class 12","No",10,1,"Yes",0
+127186,"Male",33,"Patna","Student",5,0,6.88,3,0,"Less than 5 hours","Unhealthy","LLB","Yes",10,5,"Yes",1
+111449,"Male",28,"Nagpur","Student",3,0,8.74,2,0,"More than 8 hours","Healthy","M.Pharm","Yes",0,1,"No",0
+105810,"Female",22,"Bhopal","Student",2,0,7.1,5,0,"Less than 5 hours","Unhealthy","MCA","No",1,1,"No",0
+133472,"Female",34,"Vasai-Virar","Student",3,0,8.29,4,0,"Less than 5 hours","Healthy","BCA","No",5,2,"No",0
+121432,"Female",31,"Ludhiana","Student",2,0,9.44,4,0,"Less than 5 hours","Healthy","B.Ed","Yes",10,5,"No",1
+16404,"Male",34,"Agra","Student",2,0,8.52,1,0,"5-6 hours","Moderate","Class 12","No",11,5,"No",0
+62063,"Female",31,"Vasai-Virar","Student",3,0,5.7,3,0,"Less than 5 hours","Healthy","M.Ed","No",12,3,"Yes",0
+108653,"Female",18,"Ludhiana","Student",5,0,5.59,4,0,"5-6 hours","Healthy","Class 12","Yes",2,1,"No",1
+56782,"Female",32,"Agra","Student",5,0,7.87,3,0,"7-8 hours","Healthy","MCA","Yes",10,4,"No",1
+6383,"Female",21,"Mumbai","Student",1,0,7.64,5,0,"More than 8 hours","Unhealthy","MCA","No",0,1,"Yes",0
+112235,"Male",21,"Faridabad","Student",3,0,8.73,3,0,"5-6 hours","Moderate","BCA","Yes",10,4,"Yes",1
+9961,"Male",33,"Indore","Student",5,0,5.76,5,0,"More than 8 hours","Moderate","BCA","Yes",6,1,"No",1
+121235,"Male",33,"Jaipur","Student",4,0,7.02,4,0,"Less than 5 hours","Moderate","B.Tech","No",6,4,"No",1
+76539,"Female",23,"Rajkot","Student",5,0,5.76,4,0,"Less than 5 hours","Moderate","B.Com","Yes",10,3,"Yes",1
+104549,"Male",29,"Nashik","Student",1,0,9.87,2,0,"7-8 hours","Healthy","B.Ed","No",2,2,"Yes",0
+127605,"Male",19,"Ghaziabad","Student",1,0,9.5,1,0,"Less than 5 hours","Moderate","Class 12","No",9,5,"Yes",0
+109992,"Male",19,"Thane","Student",5,0,7.83,3,0,"More than 8 hours","Unhealthy","Class 12","No",2,4,"Yes",1
+29560,"Female",25,"Bhopal","Student",2,0,6.56,3,0,"More than 8 hours","Moderate","BA","Yes",9,2,"No",1
+85226,"Female",34,"Vadodara","Student",3,0,5.74,3,0,"7-8 hours","Healthy","M.Tech","No",9,5,"Yes",0
+33854,"Male",20,"Mumbai","Student",5,0,9.82,2,0,"More than 8 hours","Unhealthy","Class 12","No",3,4,"Yes",1
+48062,"Male",33,"Mumbai","Student",5,0,8.21,3,0,"More than 8 hours","Moderate","M.Tech","Yes",3,2,"Yes",0
+10858,"Male",34,"Agra","Student",5,0,9.6,4,0,"Less than 5 hours","Healthy","MA","No",9,4,"No",0
+19800,"Female",28,"Varanasi","Student",3,0,5.44,4,0,"5-6 hours","Healthy","LLM","No",6,4,"Yes",0
+108421,"Female",19,"Bangalore","Student",3,0,8.46,4,0,"5-6 hours","Unhealthy","Class 12","Yes",9,2,"No",0
+124942,"Female",18,"Kanpur","Student",3,0,5.35,4,0,"7-8 hours","Moderate","Class 12","Yes",9,3,"Yes",1
+129535,"Female",21,"Lucknow","Student",2,0,9.84,3,0,"7-8 hours","Healthy","B.Arch","No",11,1,"No",0
+52762,"Female",22,"Nagpur","Student",2,0,7.53,5,0,"5-6 hours","Healthy","M.Com","No",5,2,"Yes",0
+106014,"Male",23,"Vadodara","Student",1,0,6.92,3,0,"More than 8 hours","Unhealthy","B.Arch","Yes",9,3,"No",0
+101816,"Female",21,"Chennai","Student",5,0,8.53,2,0,"5-6 hours","Unhealthy","M.Com","Yes",2,1,"No",1
+35521,"Female",24,"Hyderabad","Student",3,0,8.91,4,0,"7-8 hours","Moderate","B.Com","No",4,2,"No",0
+30614,"Female",32,"Bangalore","Student",2,0,6.02,3,0,"More than 8 hours","Healthy","B.Ed","Yes",3,1,"Yes",0
+70245,"Female",19,"Ahmedabad","Student",2,0,9.54,1,0,"More than 8 hours","Healthy","Class 12","No",9,5,"No",0
+98543,"Male",30,"Kalyan","Student",4,0,5.6,2,0,"Less than 5 hours","Healthy","MSc","Yes",9,2,"Yes",1
+50702,"Male",34,"Surat","Student",1,0,7.53,5,0,"More than 8 hours","Moderate","BCA","Yes",0,3,"No",0
+132508,"Female",27,"Meerut","Student",5,0,9.19,1,0,"7-8 hours","Healthy","MBA","Yes",9,3,"No",1
+130051,"Male",27,"Varanasi","Student",5,0,5.66,3,0,"7-8 hours","Unhealthy","B.Pharm","No",3,1,"No",0
+46891,"Female",19,"Vasai-Virar","Student",1,0,6.47,1,0,"Less than 5 hours","Healthy","Class 12","No",11,2,"No",0
+92855,"Male",18,"Srinagar","Student",4,0,7.3,4,0,"More than 8 hours","Moderate","Class 12","No",3,4,"No",1
+21279,"Male",32,"Varanasi","Student",3,0,6.1,1,0,"5-6 hours","Moderate","B.Com","Yes",9,2,"Yes",1
+118360,"Male",26,"Ghaziabad","Student",4,0,5.6,3,0,"7-8 hours","Healthy","MCA","Yes",7,2,"No",1
+113014,"Female",19,"Visakhapatnam","Student",1,0,7.15,5,0,"5-6 hours","Healthy","Class 12","Yes",11,3,"No",1
+73580,"Male",29,"Kanpur","Student",2,0,9.56,2,0,"5-6 hours","Healthy","MA","No",9,2,"No",0
+83158,"Female",31,"Jaipur","Student",3,0,7.1,4,0,"7-8 hours","Unhealthy","B.Com","Yes",10,5,"Yes",1
+763,"Female",31,"Nagpur","Student",5,0,6.25,2,0,"5-6 hours","Unhealthy","B.Tech","Yes",9,3,"No",1
+53261,"Female",29,"Ahmedabad","Student",3,0,9.49,5,0,"5-6 hours","Healthy","B.Arch","Yes",7,1,"Yes",1
+131971,"Male",20,"Srinagar","Student",1,0,9.47,4,0,"7-8 hours","Healthy","Class 12","No",2,2,"No",0
+58062,"Female",32,"Vadodara","Student",5,0,0,0,0,"Less than 5 hours","Unhealthy","Class 12","Yes",11,5,"No",1
+11293,"Male",24,"Srinagar","Student",3,0,7.3,5,0,"More than 8 hours","Healthy","M.Pharm","Yes",3,5,"Yes",1
+105098,"Female",28,"Bhopal","Student",2,0,5.98,4,0,"7-8 hours","Moderate","B.Com","Yes",6,4,"No",0
+104378,"Male",25,"Lucknow","Student",3,0,6.83,1,0,"More than 8 hours","Unhealthy","B.Ed","Yes",10,4,"Yes",1
+96965,"Female",33,"Kalyan","Student",1,0,7.77,4,0,"More than 8 hours","Moderate","MSc","Yes",4,2,"Yes",0
+135267,"Female",28,"Hyderabad","Student",3,0,5.41,3,0,"5-6 hours","Moderate","BBA","Yes",10,3,"No",0
+29980,"Male",31,"Visakhapatnam","Student",5,0,7.22,3,0,"7-8 hours","Unhealthy","M.Ed","Yes",6,1,"No",1
+99157,"Male",28,"Varanasi","Student",2,0,7.77,3,0,"5-6 hours","Moderate","B.Ed","No",12,5,"Yes",1
+118775,"Female",20,"Ludhiana","Student",1,0,9.96,3,0,"5-6 hours","Healthy","Class 12","Yes",11,5,"Yes",1
+13588,"Female",29,"Hyderabad","Student",3,0,8.04,4,0,"7-8 hours","Moderate","M.Ed","No",7,2,"Yes",0
+13736,"Male",28,"Vadodara","Student",1,0,7.12,5,0,"5-6 hours","Unhealthy","MCA","Yes",8,5,"Yes",1
+123211,"Male",19,"Surat","Student",3,0,7.38,5,0,"More than 8 hours","Moderate","Class 12","No",12,1,"Yes",0
+101630,"Male",32,"Surat","Student",5,0,5.66,2,0,"7-8 hours","Unhealthy","BSc","Yes",10,4,"Yes",1
+135551,"Male",21,"Thane","Student",5,0,8.17,4,0,"Less than 5 hours","Healthy","MSc","No",12,4,"Yes",0
+25081,"Female",18,"Nashik","Student",2,0,8.13,2,0,"Less than 5 hours","Healthy","Class 12","Yes",9,5,"Yes",1
+24192,"Male",30,"Agra","Student",3,0,9.44,2,0,"More than 8 hours","Moderate","B.Ed","Yes",10,5,"No",1
+54632,"Male",20,"Agra","Student",5,0,8.13,2,0,"Less than 5 hours","Moderate","Class 12","No",4,4,"Yes",0
+79483,"Male",18,"Ahmedabad","Student",5,0,6.51,4,0,"7-8 hours","Moderate","Class 12","Yes",7,4,"No",1
+61405,"Female",28,"Vadodara","Student",2,0,8.04,4,0,"More than 8 hours","Healthy","M.Pharm","Yes",11,1,"No",0
+19748,"Female",27,"Hyderabad","Student",5,0,9.6,2,0,"More than 8 hours","Moderate","M.Pharm","Yes",7,4,"Yes",1
+50521,"Male",32,"Patna","Student",1,0,6.42,3,0,"5-6 hours","Unhealthy","PhD","Yes",8,3,"Yes",0
+92784,"Male",23,"Nagpur","Student",5,0,6.02,3,0,"5-6 hours","Moderate","M.Tech","Yes",8,3,"Yes",1
+47555,"Female",24,"Vadodara","Student",1,0,5.38,1,0,"Less than 5 hours","Unhealthy","MBBS","Yes",12,2,"No",1
+27295,"Female",19,"Kolkata","Student",2,0,7.39,3,0,"5-6 hours","Moderate","Class 12","No",9,4,"No",1
+38220,"Male",23,"Agra","Student",3,0,9.41,1,0,"5-6 hours","Healthy","MSc","No",8,1,"No",0
+128879,"Male",26,"Agra","Student",1,0,7.24,4,0,"Less than 5 hours","Healthy","LLB","Yes",8,1,"Yes",0
+95542,"Female",28,"Vadodara","Student",4,0,5.85,4,0,"More than 8 hours","Unhealthy","M.Pharm","Yes",7,3,"Yes",0
+29912,"Male",23,"Kalyan","Student",3,0,9.24,4,0,"5-6 hours","Unhealthy","B.Com","Yes",6,2,"Yes",1
+106641,"Male",21,"Ghaziabad","Student",3,0,9.6,5,0,"Less than 5 hours","Unhealthy","M.Tech","No",12,1,"No",1
+85737,"Female",31,"Kolkata","Student",5,0,8.58,5,0,"Less than 5 hours","Moderate","BE","Yes",10,3,"No",1
+34373,"Male",34,"Patna","Student",2,0,6.81,3,0,"More than 8 hours","Healthy","BSc","No",10,1,"No",0
+69776,"Male",28,"Kalyan","Student",1,0,7.39,4,0,"Less than 5 hours","Unhealthy","BCA","Yes",8,4,"Yes",0
+66908,"Male",30,"Agra","Student",5,0,8.65,4,0,"5-6 hours","Healthy","B.Ed","No",2,2,"No",0
+35763,"Male",23,"Agra","Student",1,0,9.97,2,0,"Less than 5 hours","Unhealthy","BSc","No",1,1,"No",0
+18248,"Male",34,"Meerut","Student",5,0,7.1,1,0,"Less than 5 hours","Unhealthy","Class 12","Yes",12,5,"No",1
+109117,"Male",21,"Ludhiana","Student",5,0,9.95,3,0,"7-8 hours","Healthy","MA","Yes",12,2,"Yes",1
+26849,"Male",24,"Indore","Student",3,0,9.41,2,0,"Less than 5 hours","Moderate","BBA","Yes",11,4,"Yes",1
+120509,"Female",30,"Pune","Student",4,0,9.06,4,0,"Less than 5 hours","Healthy","MA","Yes",7,3,"No",1
+92958,"Female",18,"Bangalore","Student",5,0,8.58,1,0,"More than 8 hours","Moderate","Class 12","Yes",3,2,"No",1
+32752,"Male",24,"Srinagar","Student",3,0,9.67,5,0,"Less than 5 hours","Healthy","B.Ed","Yes",7,5,"No",1
+105616,"Male",21,"Chennai","Student",1,0,8,3,0,"5-6 hours","Healthy","B.Ed","No",6,2,"No",0
+32083,"Male",27,"Srinagar","Student",3,0,5.12,5,0,"More than 8 hours","Moderate","BE","Yes",8,5,"No",1
+55963,"Female",30,"Thane","Student",3,0,8.91,1,0,"5-6 hours","Unhealthy","BCA","No",12,3,"No",0
+28438,"Female",32,"Patna","Student",3,0,5.61,2,0,"Less than 5 hours","Unhealthy","B.Ed","Yes",8,5,"No",1
+119289,"Female",29,"Chennai","Student",5,0,5.37,2,0,"7-8 hours","Healthy","MD","Yes",12,4,"No",1
+8411,"Male",25,"Ghaziabad","Student",2,0,8.01,5,0,"Less than 5 hours","Unhealthy","M.Tech","Yes",1,5,"No",1
+52058,"Male",31,"Visakhapatnam","Student",3,0,7.7,1,0,"7-8 hours","Healthy","BE","Yes",8,5,"No",0
+75824,"Female",29,"Vasai-Virar","Student",2,0,8.44,5,0,"5-6 hours","Healthy","B.Arch","Yes",10,2,"Yes",1
+73185,"Female",29,"Bhopal","Student",2,0,7.94,1,0,"More than 8 hours","Moderate","MBBS","No",9,1,"Yes",0
+134571,"Male",32,"Pune","Student",5,0,8.35,1,0,"Less than 5 hours","Unhealthy","PhD","Yes",4,2,"Yes",1
+16816,"Male",27,"Meerut","Student",3,0,8.78,2,0,"7-8 hours","Moderate","BHM","No",12,3,"No",0
+24833,"Male",20,"Kalyan","Student",4,0,7.5,2,0,"Less than 5 hours","Moderate","Class 12","Yes",1,4,"Yes",1
+7702,"Male",28,"Vasai-Virar","Student",5,0,6.89,1,0,"More than 8 hours","Unhealthy","MCA","Yes",12,2,"Yes",1
+4447,"Male",21,"Lucknow","Student",3,0,8.04,1,0,"More than 8 hours","Unhealthy","M.Com","Yes",12,3,"Yes",1
+43209,"Female",25,"Hyderabad","Student",4,0,7.99,2,0,"Less than 5 hours","Unhealthy","BE","Yes",5,5,"Yes",1
+138361,"Female",20,"Delhi","Student",3,0,8.04,4,0,"Less than 5 hours","Moderate","Class 12","No",6,4,"Yes",0
+125178,"Male",33,"Rajkot","Student",3,0,7.88,5,0,"More than 8 hours","Healthy","M.Pharm","Yes",5,1,"No",1
+35606,"Female",24,"Vadodara","Student",1,0,9.86,4,0,"More than 8 hours","Moderate","LLB","No",3,4,"Yes",0
+87844,"Male",22,"Indore","Student",3,0,9.92,3,0,"5-6 hours","Moderate","MBA","Yes",4,3,"No",0
+27847,"Female",24,"Vasai-Virar","Student",5,0,9.21,1,0,"7-8 hours","Moderate","LLB","No",0,5,"Yes",1
+127448,"Male",28,"Mumbai","Student",3,0,9.87,2,0,"Less than 5 hours","Moderate","B.Com","No",9,3,"Yes",0
+41241,"Male",19,"Lucknow","Student",4,0,8,1,0,"Less than 5 hours","Unhealthy","Class 12","Yes",6,5,"No",1
+26963,"Male",27,"Patna","Student",1,0,7.92,3,0,"5-6 hours","Healthy","BHM","No",11,2,"No",0
+79550,"Female",26,"Kalyan","Student",3,0,7.03,2,0,"Less than 5 hours","Healthy","BBA","Yes",8,3,"No",0
+73424,"Male",33,"Kalyan","Student",3,0,9.84,4,0,"More than 8 hours","Moderate","MBBS","Yes",6,5,"No",1
+48235,"Female",25,"Vadodara","Student",2,0,7.94,2,0,"7-8 hours","Healthy","BCA","No",7,2,"No",0
+50617,"Male",25,"Jaipur","Student",5,0,6.41,4,0,"Less than 5 hours","Healthy","MD","Yes",3,3,"No",1
+86059,"Female",31,"Ahmedabad","Student",4,0,5.59,3,0,"7-8 hours","Moderate","LLB","Yes",4,1,"Yes",1
+92202,"Male",34,"Jaipur","Student",5,0,9.63,1,0,"More than 8 hours","Healthy","M.Ed","No",9,5,"Yes",1
+19704,"Female",28,"Patna","Student",2,0,9.21,3,0,"7-8 hours","Unhealthy","B.Ed","Yes",8,3,"No",1
+37866,"Female",20,"Indore","Student",1,0,9.93,4,0,"Less than 5 hours","Healthy","Class 12","No",11,4,"No",0
+103323,"Female",22,"Kalyan","Student",4,0,8,3,0,"Less than 5 hours","Unhealthy","BBA","Yes",7,3,"No",1
+14288,"Male",20,"Agra","Student",5,0,8.91,1,0,"Less than 5 hours","Unhealthy","Class 12","Yes",8,4,"Yes",1
+23792,"Male",23,"Bangalore","Student",5,0,8.95,4,0,"7-8 hours","Healthy","MBA","No",1,1,"No",0
+112370,"Male",28,"Varanasi","Student",5,0,5.76,3,0,"7-8 hours","Healthy","M.Pharm","Yes",10,3,"Yes",1
+62911,"Male",32,"Meerut","Student",3,0,8.04,4,0,"More than 8 hours","Healthy","ME","No",2,4,"Yes",0
+4790,"Male",24,"Ludhiana","Student",3,0,5.26,4,0,"Less than 5 hours","Unhealthy","Class 12","Yes",4,5,"Yes",1
+5064,"Female",19,"Bhopal","Student",1,0,7.09,2,0,"5-6 hours","Moderate","Class 12","Yes",1,1,"Yes",0
+15103,"Male",26,"Hyderabad","Student",4,0,7.1,5,0,"7-8 hours","Unhealthy","MSc","Yes",10,4,"Yes",1
+27703,"Female",24,"Ghaziabad","Student",5,0,8.77,2,0,"5-6 hours","Healthy","M.Pharm","Yes",10,4,"Yes",1
+5579,"Male",32,"Nashik","Student",5,0,9.67,3,0,"7-8 hours","Unhealthy","M.Tech","Yes",10,4,"Yes",1
+136757,"Female",31,"Delhi","Student",5,0,8.28,3,0,"5-6 hours","Unhealthy","B.Com","No",12,4,"Yes",1
+75094,"Male",21,"Ahmedabad","Student",1,0,6.28,4,0,"5-6 hours","Unhealthy","BE","Yes",7,4,"No",0
+32734,"Male",23,"Hyderabad","Student",4,0,7.39,1,0,"More than 8 hours","Moderate","MBA","Yes",9,2,"Yes",1
+49612,"Male",29,"Kolkata","Student",1,0,8.09,4,0,"Less than 5 hours","Healthy","M.Com","No",1,3,"Yes",0
+119759,"Male",28,"Kolkata","Student",5,0,9.21,4,0,"Less than 5 hours","Unhealthy","MSc","No",10,2,"Yes",1
+117300,"Female",34,"Chennai","Student",4,0,9.74,1,0,"More than 8 hours","Healthy","M.Pharm","No",7,2,"Yes",0
+99924,"Female",34,"Patna","Student",1,0,8.24,4,0,"Less than 5 hours","Healthy","B.Arch","No",11,1,"No",0
+47145,"Female",33,"Vasai-Virar","Student",1,0,7.5,5,0,"Less than 5 hours","Moderate","M.Tech","No",7,4,"Yes",0
+102093,"Female",19,"Kalyan","Student",2,0,9.97,3,0,"7-8 hours","Unhealthy","Class 12","Yes",6,5,"No",1
+55056,"Male",24,"Vadodara","Student",5,0,5.37,2,0,"Less than 5 hours","Healthy","B.Com","Yes",8,2,"No",1
+20313,"Female",33,"Vasai-Virar","Student",3,0,6.83,4,0,"More than 8 hours","Moderate","M.Ed","No",10,1,"Yes",0
+131053,"Male",21,"Kolkata","Student",4,0,5.25,2,0,"7-8 hours","Unhealthy","MSc","Yes",11,2,"Yes",1
+65340,"Female",34,"Visakhapatnam","Student",1,0,9.39,5,0,"More than 8 hours","Unhealthy","BCA","Yes",3,4,"No",0
+52914,"Male",26,"Ludhiana","Student",3,0,5.74,2,0,"5-6 hours","Moderate","BHM","Yes",2,5,"Yes",0
+134725,"Female",27,"Srinagar","Student",4,0,9.13,3,0,"5-6 hours","Healthy","MA","Yes",12,4,"Yes",1
+101790,"Female",27,"Agra","Student",5,0,7.88,4,0,"5-6 hours","Moderate","BHM","Yes",10,1,"No",1
+84540,"Female",21,"Chennai","Student",5,0,5.51,2,0,"Less than 5 hours","Healthy","PhD","Yes",6,3,"Yes",1
+57241,"Male",28,"Kolkata","Student",4,0,7.8,2,0,"5-6 hours","Unhealthy","B.Ed","Yes",10,4,"No",1
+130190,"Male",28,"Pune","Student",4,0,9.96,2,0,"More than 8 hours","Moderate","BCA","No",4,4,"No",1
+114211,"Female",29,"Mumbai","Student",2,0,9.56,1,0,"5-6 hours","Healthy","B.Pharm","Yes",10,3,"No",0
+129769,"Male",24,"Kalyan","Student",3,0,7.52,1,0,"5-6 hours","Unhealthy","B.Com","Yes",10,4,"No",1
+26097,"Male",18,"Ahmedabad","Student",3,0,7.25,4,0,"More than 8 hours","Unhealthy","Class 12","Yes",12,4,"No",1
+108697,"Female",23,"Srinagar","Student",2,0,7.85,3,0,"5-6 hours","Healthy","BA","Yes",12,4,"Yes",1
+23952,"Male",23,"Nagpur","Student",3,0,5.85,1,0,"Less than 5 hours","Unhealthy","Class 12","No",7,1,"Yes",1
+37852,"Male",29,"Bhopal","Student",1,0,5.57,4,0,"Less than 5 hours","Healthy","M.Ed","No",4,3,"No",0
+46302,"Female",29,"Ludhiana","Student",1,0,5.97,4,0,"Less than 5 hours","Healthy","BSc","No",11,2,"Yes",0
+106175,"Female",31,"Kolkata","Student",1,0,9.91,1,0,"More than 8 hours","Unhealthy","B.Ed","No",11,1,"Yes",0
+62505,"Male",32,"Ludhiana","Student",4,0,7.04,2,0,"Less than 5 hours","Unhealthy","BA","Yes",10,5,"Yes",1
+130068,"Female",31,"Chennai","Student",4,0,5.8,4,0,"5-6 hours","Moderate","Class 12","Yes",0,4,"No",1
+119587,"Female",26,"Jaipur","Student",5,0,7.32,5,0,"Less than 5 hours","Healthy","B.Ed","Yes",8,2,"Yes",1
+115010,"Male",23,"Thane","Student",4,0,7.85,3,0,"More than 8 hours","Moderate","B.Ed","Yes",9,3,"Yes",1
+522,"Male",22,"Pune","Student",2,0,9.88,4,0,"More than 8 hours","Healthy","BSc","No",0,2,"Yes",0
+135932,"Male",26,"Agra","Student",4,0,6.33,1,0,"Less than 5 hours","Healthy","MSc","Yes",10,4,"No",1
+31663,"Male",18,"Ghaziabad","Student",3,0,5.56,4,0,"7-8 hours","Unhealthy","Class 12","Yes",11,4,"No",1
+134232,"Female",21,"Hyderabad","Student",1,0,5.66,3,0,"5-6 hours","Moderate","B.Arch","No",12,3,"No",0
+57354,"Male",25,"Indore","Student",3,0,9.96,3,0,"Less than 5 hours","Unhealthy","BSc","Yes",3,3,"Yes",1
+94822,"Male",34,"Mumbai","Student",1,0,6.56,4,0,"Less than 5 hours","Moderate","MD","Yes",5,1,"Yes",1
+76997,"Female",25,"Surat","Student",3,0,7.6,5,0,"Less than 5 hours","Moderate","B.Com","Yes",8,1,"Yes",0
+25346,"Male",26,"Ludhiana","Student",4,0,8.24,4,0,"More than 8 hours","Unhealthy","B.Arch","Yes",10,4,"Yes",1
+112665,"Male",29,"Nagpur","Student",5,0,5.32,1,0,"Less than 5 hours","Unhealthy","B.Pharm","Yes",9,4,"Yes",1
+43781,"Female",34,"Vadodara","Student",5,0,5.27,1,0,"Less than 5 hours","Moderate","M.Com","No",1,1,"Yes",0
+130764,"Male",19,"Nagpur","Student",3,0,8.95,2,0,"Less than 5 hours","Unhealthy","Class 12","Yes",2,5,"Yes",1
+130137,"Male",25,"Patna","Student",3,0,8.19,5,0,"Less than 5 hours","Moderate","BE","Yes",12,4,"Yes",1
+82435,"Male",26,"Lucknow","Student",3,0,9.86,4,0,"5-6 hours","Unhealthy","M.Com","Yes",1,4,"No",1
+27636,"Female",29,"Bhopal","Student",2,0,8.04,3,0,"7-8 hours","Healthy","LLM","No",10,1,"No",1
+16059,"Male",21,"Hyderabad","Student",2,0,6.16,2,0,"Less than 5 hours","Healthy","B.Arch","No",9,1,"No",1
+114107,"Male",28,"Thane","Student",5,0,8.27,5,0,"5-6 hours","Healthy","M.Com","Yes",0,3,"No",1
+137590,"Male",25,"Jaipur","Student",4,0,9.41,2,0,"5-6 hours","Unhealthy","BSc","Yes",11,2,"Yes",1
+60616,"Male",27,"Patna","Student",3,0,9.37,1,0,"7-8 hours","Healthy","B.Pharm","Yes",10,5,"Yes",1
+86039,"Female",33,"Ludhiana","Student",5,0,9.21,2,0,"Less than 5 hours","Unhealthy","PhD","Yes",10,5,"Yes",1
+101286,"Male",20,"Srinagar","Student",1,0,7.88,4,0,"More than 8 hours","Moderate","Class 12","Yes",6,3,"No",0
+55011,"Female",33,"Kalyan","Student",3,0,8.95,1,0,"Less than 5 hours","Moderate","BCA","Yes",3,2,"Yes",1
+10938,"Male",25,"Thane","Student",3,0,7.1,4,0,"5-6 hours","Unhealthy","B.Com","Yes",11,2,"Yes",1
+45095,"Male",33,"Meerut","Student",2,0,5.84,5,0,"More than 8 hours","Unhealthy","B.Tech","Yes",8,5,"Yes",1
+58636,"Male",18,"Faridabad","Student",1,0,7.46,5,0,"5-6 hours","Moderate","Class 12","Yes",12,5,"No",1
+6662,"Female",27,"Indore","Student",3,0,8.53,4,0,"Less than 5 hours","Unhealthy","MBA","Yes",7,2,"No",1
+103228,"Male",23,"Nagpur","Student",5,0,9.96,2,0,"7-8 hours","Unhealthy","B.Ed","Yes",7,5,"No",1
+38065,"Female",18,"Vadodara","Student",3,0,5.37,4,0,"5-6 hours","Unhealthy","Class 12","No",1,5,"Yes",0
+129946,"Female",27,"Vasai-Virar","Student",3,0,6.61,3,0,"Less than 5 hours","Moderate","B.Com","Yes",10,5,"No",1
+24751,"Female",21,"Pune","Student",3,0,9.56,5,0,"7-8 hours","Unhealthy","M.Com","Yes",2,1,"Yes",1
+48463,"Female",33,"Chennai","Student",3,0,6.78,4,0,"More than 8 hours","Moderate","BCA","Yes",10,5,"Yes",1
+133165,"Male",27,"Surat","Student",3,0,5.16,5,0,"5-6 hours","Healthy","MSc","No",8,5,"No",0
+83867,"Male",25,"Jaipur","Student",5,0,6.47,5,0,"7-8 hours","Unhealthy","B.Com","Yes",8,4,"No",1
+49824,"Female",23,"Pune","Student",1,0,5.57,5,0,"7-8 hours","Moderate","MBA","No",10,2,"No",0
+89115,"Male",30,"Meerut","Student",1,0,5.88,4,0,"More than 8 hours","Healthy","M.Com","No",2,3,"No",0
+76032,"Female",25,"Chennai","Student",4,0,5.46,2,0,"More than 8 hours","Moderate","Class 12","Yes",8,2,"No",1
+101353,"Male",29,"Pune","Student",5,0,7.52,2,0,"More than 8 hours","Moderate","M.Pharm","No",5,2,"No",0
+6310,"Male",26,"Chennai","Student",5,0,5.59,1,0,"Less than 5 hours","Moderate","BA","Yes",10,2,"No",1
+110722,"Male",32,"Faridabad","Student",5,0,5.82,5,0,"5-6 hours","Unhealthy","M.Com","Yes",2,5,"Yes",1
+51191,"Female",33,"Vasai-Virar","Student",2,0,6.85,2,0,"7-8 hours","Healthy","LLM","No",11,2,"No",0
+88302,"Male",24,"Varanasi","Student",2,0,8.04,2,0,"More than 8 hours","Moderate","B.Arch","No",3,4,"No",0
+115925,"Male",31,"Jaipur","Student",3,0,9.97,1,0,"More than 8 hours","Moderate","BE","No",10,3,"Yes",0
+25870,"Male",29,"Vasai-Virar","Student",2,0,7.53,4,0,"Less than 5 hours","Unhealthy","LLB","Yes",12,5,"No",1
+102378,"Female",28,"Vasai-Virar","Student",4,0,6.27,1,0,"5-6 hours","Healthy","MHM","No",1,3,"No",0
+110488,"Male",23,"Varanasi","Student",3,0,5.74,3,0,"Less than 5 hours","Unhealthy","MBA","Yes",12,5,"No",1
+41891,"Male",25,"Lucknow","Student",1,0,6.53,4,0,"More than 8 hours","Unhealthy","PhD","Yes",0,1,"Yes",0
+49385,"Male",34,"Hyderabad","Student",1,0,9.04,2,0,"7-8 hours","Healthy","PhD","No",9,2,"No",0
+63087,"Female",34,"Faridabad","Student",4,0,6.25,4,0,"7-8 hours","Unhealthy","BCA","Yes",4,2,"Yes",1
+10754,"Female",18,"Rajkot","Student",3,0,7.88,3,0,"Less than 5 hours","Moderate","Class 12","No",2,2,"No",0
+88366,"Female",28,"Kanpur","Student",3,0,6.86,4,0,"Less than 5 hours","Unhealthy","BCA","Yes",12,2,"No",1
+117773,"Male",20,"Kolkata","Student",4,0,8.04,2,0,"5-6 hours","Unhealthy","Class 12","No",3,2,"Yes",0
+75713,"Male",19,"Bangalore","Student",3,0,7.94,1,0,"More than 8 hours","Healthy","Class 12","Yes",10,3,"No",0
+96912,"Female",30,"Indore","Student",4,0,7.02,4,0,"5-6 hours","Moderate","MSc","No",10,1,"Yes",0
+48521,"Male",29,"Surat","Student",2,0,8.95,5,0,"5-6 hours","Healthy","BCA","No",9,2,"Yes",0
+31237,"Male",29,"Ahmedabad","Student",4,0,9.44,2,0,"Less than 5 hours","Unhealthy","M.Com","Yes",4,2,"No",1
+1108,"Female",29,"Chennai","Student",5,0,8.9,3,0,"Less than 5 hours","Moderate","BE","No",4,5,"Yes",1
+10468,"Male",24,"Ahmedabad","Student",3,0,7.09,4,0,"Less than 5 hours","Moderate","BE","No",10,5,"Yes",1
+8261,"Male",27,"Indore","Student",4,0,9.39,4,0,"Less than 5 hours","Unhealthy","B.Tech","No",7,5,"No",1
+70792,"Female",24,"Ahmedabad","Student",4,0,7.17,1,0,"Less than 5 hours","Unhealthy","B.Ed","Yes",10,4,"No",1
+71887,"Male",28,"Nagpur","Student",4,0,5.26,3,0,"Less than 5 hours","Moderate","MCA","Yes",8,1,"Yes",1
+6225,"Female",33,"Kanpur","Student",3,0,9.97,1,0,"Less than 5 hours","Moderate","MSc","Yes",6,2,"Yes",1
+57841,"Female",18,"Lucknow","Student",2,0,8.5,3,0,"7-8 hours","Moderate","Class 12","Yes",11,1,"Yes",1
+20530,"Female",25,"Kanpur","Student",1,0,9.79,1,0,"5-6 hours","Unhealthy","B.Arch","Yes",0,3,"Yes",1
+139838,"Male",31,"Bhopal","Student",1,0,9.71,1,0,"Less than 5 hours","Unhealthy","B.Tech","No",3,1,"No",0
+55462,"Male",29,"Hyderabad","Student",4,0,6.78,5,0,"Less than 5 hours","Moderate","M.Tech","No",12,4,"No",0
+74442,"Female",32,"Bangalore","Student",5,0,5.81,3,0,"Less than 5 hours","Healthy","M.Tech","No",4,2,"No",0
+114247,"Female",20,"Lucknow","Student",3,0,9.67,4,0,"More than 8 hours","Moderate","Class 12","Yes",8,1,"No",0
+105970,"Male",31,"Patna","Student",2,0,8.91,2,0,"5-6 hours","Unhealthy","M.Ed","Yes",10,3,"No",1
+133826,"Male",21,"Delhi","Student",5,0,8.73,2,0,"Less than 5 hours","Moderate","B.Ed","Yes",6,5,"No",1
+66113,"Female",20,"Indore","Student",2,0,8.52,1,0,"Less than 5 hours","Moderate","Class 12","Yes",4,3,"Yes",0
+59865,"Female",19,"Agra","Student",1,0,6.08,1,0,"More than 8 hours","Unhealthy","Class 12","Yes",7,5,"No",0
+45428,"Female",26,"Jaipur","Student",3,0,7.83,2,0,"Less than 5 hours","Moderate","MCA","No",6,5,"Yes",1
+35240,"Female",24,"Indore","Student",3,0,6.25,4,0,"Less than 5 hours","Unhealthy","MBBS","Yes",10,5,"No",1
+30557,"Female",28,"Vasai-Virar","Student",5,0,8.69,4,0,"5-6 hours","Healthy","MBBS","No",5,4,"Yes",0
+137631,"Male",33,"Lucknow","Student",4,0,6.89,3,0,"More than 8 hours","Healthy","BSc","No",2,3,"No",0
+91885,"Female",22,"Vasai-Virar","Student",3,0,7.15,5,0,"More than 8 hours","Unhealthy","M.Tech","No",12,2,"No",0
+127405,"Female",20,"Thane","Student",3,0,5.75,5,0,"Less than 5 hours","Moderate","Class 12","Yes",10,5,"No",1
+90479,"Male",25,"Delhi","Student",5,0,5.45,2,0,"Less than 5 hours","Unhealthy","M.Pharm","Yes",12,5,"No",1
+97933,"Male",24,"Kolkata","Student",5,0,5.12,2,0,"More than 8 hours","Healthy","B.Tech","Yes",11,4,"Yes",1
+68345,"Male",31,"Chennai","Student",5,0,9.96,4,0,"5-6 hours","Healthy","LLB","Yes",12,4,"No",1
+15942,"Female",19,"Bangalore","Student",2,0,8,1,0,"Less than 5 hours","Unhealthy","Class 12","Yes",6,5,"Yes",1
+12974,"Male",21,"Faridabad","Student",1,0,7.48,4,0,"5-6 hours","Healthy","BHM","No",12,2,"Yes",0
+94476,"Male",25,"Agra","Student",3,0,9.24,3,0,"Less than 5 hours","Moderate","MSc","Yes",12,4,"Yes",1
+115258,"Male",38,"Hyderabad","Student",3,0,8.94,2,0,"7-8 hours","Healthy","M.Pharm","Yes",0,2,"No",0
+78571,"Male",24,"Thane","Student",2,0,9.21,3,0,"7-8 hours","Moderate","B.Com","Yes",7,2,"No",0
+83452,"Male",29,"Vasai-Virar","Student",2,0,9.44,4,0,"7-8 hours","Unhealthy","BSc","Yes",11,5,"No",1
+5951,"Female",19,"Nagpur","Student",1,0,9.74,4,0,"5-6 hours","Moderate","Class 12","No",2,3,"No",0
+86133,"Male",18,"Surat","Student",4,0,7.9,1,0,"More than 8 hours","Moderate","Class 12","Yes",5,5,"Yes",1
+44982,"Male",33,"Indore","Student",3,0,7.08,3,0,"5-6 hours","Healthy","B.Arch","Yes",8,3,"Yes",1
+67813,"Male",32,"Kalyan","Student",2,0,7.09,4,0,"7-8 hours","Unhealthy","B.Ed","Yes",12,2,"Yes",1
+186,"Male",31,"Ahmedabad","Student",2,0,6.08,5,0,"7-8 hours","Moderate","LLB","Yes",3,3,"Yes",1
+68631,"Female",20,"Kolkata","Student",5,0,8.52,2,0,"5-6 hours","Healthy","Class 12","Yes",10,5,"No",1
+44334,"Male",23,"Nagpur","Student",4,0,9.93,1,0,"Less than 5 hours","Moderate","BA","No",3,2,"Yes",1
+5898,"Male",24,"Nashik","Student",5,0,6.21,5,0,"7-8 hours","Healthy","MBBS","No",5,4,"Yes",0
+9038,"Male",20,"Pune","Student",3,0,9.93,4,0,"Less than 5 hours","Moderate","Class 12","No",6,3,"No",1
+35545,"Male",34,"Varanasi","Student",1,0,8.27,5,0,"Less than 5 hours","Moderate","BCA","Yes",4,1,"Yes",0
+23275,"Female",33,"Agra","Student",1,0,9.63,3,0,"7-8 hours","Unhealthy","BSc","Yes",3,2,"No",0
+81472,"Male",25,"Patna","Student",2,0,9.19,1,0,"Less than 5 hours","Unhealthy","B.Tech","No",7,1,"Yes",0
+57146,"Female",29,"Agra","Student",5,0,5.37,3,0,"7-8 hours","Unhealthy","MCA","Yes",6,3,"Yes",1
+48097,"Male",34,"Bhopal","Student",3,0,8.88,3,0,"Less than 5 hours","Healthy","LLM","Yes",8,1,"Yes",0
+69151,"Male",24,"Rajkot","Student",3,0,8.35,3,0,"5-6 hours","Unhealthy","B.Com","No",7,2,"Yes",0
+139560,"Female",24,"Pune","Student",3,0,6.17,4,0,"More than 8 hours","Healthy","B.Pharm","No",7,5,"No",0
+104951,"Female",31,"Patna","Student",5,0,8.28,3,0,"5-6 hours","Moderate","BE","Yes",11,3,"No",1
+110431,"Male",22,"Thane","Student",2,0,6.29,1,0,"Less than 5 hours","Unhealthy","B.Tech","Yes",10,1,"Yes",1
+101485,"Male",19,"Ludhiana","Student",1,0,6.41,4,0,"More than 8 hours","Unhealthy","Class 12","No",7,1,"Yes",0
+12967,"Male",33,"Pune","Student",5,0,5.82,3,0,"Less than 5 hours","Unhealthy","MBBS","No",12,5,"No",1
+112718,"Male",23,"Srinagar","Student",1,0,9.46,3,0,"5-6 hours","Unhealthy","M.Tech","No",0,4,"Yes",0
+17077,"Male",22,"Rajkot","Student",2,0,9.39,3,0,"Less than 5 hours","Unhealthy","BBA","No",10,4,"No",1
+93847,"Female",18,"Kanpur","Student",3,0,6.79,3,0,"7-8 hours","Unhealthy","Class 12","Yes",0,5,"Yes",0
+91711,"Male",19,"Chennai","Student",2,0,6.99,4,0,"5-6 hours","Unhealthy","Class 12","Yes",3,2,"Yes",0
+100889,"Male",27,"Patna","Student",5,0,8.14,1,0,"7-8 hours","Healthy","B.Com","Yes",10,4,"Yes",1
+5278,"Male",29,"Ghaziabad","Student",2,0,7.53,4,0,"5-6 hours","Healthy","B.Arch","Yes",11,1,"Yes",1
+89223,"Male",33,"Bangalore","Student",3,0,8.24,3,0,"More than 8 hours","Healthy","B.Ed","No",2,2,"Yes",0

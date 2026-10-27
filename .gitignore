@@ -1,0 +1,28 @@
+# R files
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+
+# R package build files
+*.tar.gz
+*.Rcheck/
+*.dll
+*.so
+*.dylib
+
+# Compiled documentation
+docs/
+inst/doc
+
+# IDE files
+.Rproj.user
+*.Rproj
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*~
+\#*\#

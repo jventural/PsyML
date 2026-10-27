@@ -1,0 +1,468 @@
+---
+title: "Sample Size Estimation for Machine Learning"
+author: "Jose Ventura-Leon"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Sample Size Estimation for Machine Learning}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.width = 7,
+  fig.height = 5,
+  warning = FALSE,
+  message = FALSE
+)
+```
+
+## Introduction
+
+Determining the minimum sample size needed to achieve a target performance in
+Machine Learning models is a fundamental challenge in applied research. Unlike
+traditional statistical analysis where tools like G*Power provide closed-form
+solutions, machine learning lacks analytical formulas for sample-size planning.
+
+The `ml_sample_size()` function in PsyML implements a Monte Carlo simulation
+approach that:
+
+1. Generates **learning curves** via repeated model evaluation
+2. Fits a **power-law model** for extrapolation
+3. Identifies the sample size meeting explicit **decision criteria**
+
+This vignette demonstrates the complete workflow for sample size estimation.
+
+## Quick Start
+
+```{r quickstart, eval=FALSE}
+library(PsyML)
+
+# Basic usage with simulated data
+result <- ml_sample_size(
+  task = "classification",
+  metric = "auc",
+  target = 0.80,
+  seed = 2026,
+  reps = 100
+)
+
+# View recommendation
+result$recommend_n
+# [1] 600
+```
+
+## Core Concepts
+
+### The Learning Curve
+
+A learning curve plots model performance as a function of training sample size.
+It typically shows:
+
+- **Rapid improvement** at small sample sizes
+- **Progressively slower gains** as data increases
+- **Asymptotic plateau** determined by problem difficulty
+
+### Power-Law Model
+
+The learning curve is modeled as:
+
+$$\text{Performance}(n) = a - b \cdot n^{-c}$$
+
+Where:
+
+- $a$ = asymptotic performance (maximum achievable)
+- $b$ = improvement magnitude
+- $c$ = convergence rate
+
+### Decision Criteria
+
+The recommended sample size $n^*$ is the smallest $n$ satisfying:
+
+1. **Mean performance** ≥ target
+2. **Probability of success** $p_k$ ≥ 0.80 (at least 80% of runs meet target)
+3. **Stability** (optional): SD ≤ threshold
+
+## Example 1: Basic Classification
+
+Let's estimate the sample size needed to achieve AUC ≥ 0.80 with Random Forest.
+
+```{r example1, eval=FALSE}
+library(PsyML)
+
+# Simulate a classification problem
+result <- ml_sample_size(
+  task = "classification",
+  metric = "auc",
+  target = 0.80,
+  n_grid = c(100, 200, 300, 400, 600, 800, 1000),
+  reps = 100,  # 100 Monte Carlo repetitions
+  sim_params = list(
+    p = 20,           # 20 predictors
+    prevalence = 0.20, # 20% positive class
+    signal = 2.5       # Moderate signal (AUC ~0.85-0.90 achievable)
+  ),
+  seed = 123
+)
+```
+
+### Interpreting the Output
+
+```{r interpret, eval=FALSE}
+# View full results
+print(result)
+
+# Recommended sample size
+result$recommend_n
+# [1] 600
+
+# Summary table with SE of success proportion
+result$summary[, c("n", "mean", "sd", "p_meet", "se_p_meet")]
+#     n  mean    sd p_meet se_p_meet
+# 1 100 0.760 0.025   0.12     0.032
+# 2 200 0.795 0.018   0.45     0.050
+# 3 300 0.815 0.015   0.78     0.041
+# 4 400 0.825 0.012   0.92     0.027
+# 5 600 0.840 0.010   0.98     0.014
+# ...
+```
+
+### Key Output Components
+
+| Component | Description |
+|-----------|-------------|
+| `mean` | Average metric across R repetitions |
+| `sd` | Standard deviation (variability) |
+| `p_meet` | Proportion of runs meeting target ($p_k$) |
+| `se_p_meet` | Standard error of $p_k$ |
+
+### Visualizing the Learning Curve
+
+```{r plot1, eval=FALSE}
+# Plot the learning curve
+plot_learning_curve(result)
+```
+
+The plot shows:
+
+- Points: observed mean performance
+- Shaded band: 95% confidence interval
+- Horizontal line: target performance
+- Vertical line: recommended $n^*$
+- Curve: fitted power law
+
+## Example 2: Choosing the Number of Repetitions (R)
+
+The precision of $p_k$ depends on R. The standard error follows:
+
+$$SE(p_k) \approx \sqrt{\frac{p_k(1-p_k)}{R}}$$
+
+| R | SE at p=0.80 | Use Case |
+|---|--------------|----------|
+| 50 | 0.057 | Exploratory |
+| 100 | 0.040 | Standard |
+| 200 | 0.028 | Publication |
+
+```{r reps_guidance, eval=FALSE}
+# For exploratory analysis
+result_quick <- ml_sample_size(
+  task = "classification",
+  target = 0.80,
+  seed = 2026,
+  reps = 50  # Quick exploration
+)
+
+# For publication-quality results
+result_precise <- ml_sample_size(
+  task = "classification",
+  target = 0.80,
+  seed = 2026,
+  reps = 200  # High precision
+)
+```
+
+The function automatically displays SE guidance:
+
+```
+Monte Carlo settings:
+  - Repetitions (R): 100
+  - Approx SE(p_k) at p=0.80: 0.04
+```
+
+## Example 3: Small Datasets (N < 1000)
+
+When your dataset is small, a single test partition may yield unstable estimates.
+The **robustness protocol** uses multiple independent partitions.
+
+```{r small_data, eval=FALSE}
+# Load a small dataset
+data(PimaIndiansDiabetes, package = "mlbench")
+
+# Use 5 independent test partitions
+result <- ml_sample_size(
+  data = PimaIndiansDiabetes,
+  formula = diabetes ~ .,
+  task = "classification",
+  metric = "auc",
+  target = 0.75,
+  positive = "pos",
+  seed = 2026,
+  reps = 100,
+  n_outer_splits = 5,  # 5 independent partitions
+  verbose = TRUE
+)
+```
+
+### Interpreting Multiple Partition Results
+
+```{r multi_partition, eval=FALSE}
+# View results across partitions
+result$outer_splits_results
+# $median: 50       # Median n* (use this as recommendation)
+# $range: [50, 150] # Range of estimates
+# $cv: 0.559        # Coefficient of variation
+
+# If CV > 50%, there's high uncertainty
+# Report: "n* = 50 (range: 50-150, CV = 56%)"
+```
+
+**Guideline**: If the range exceeds 50% of the median, report the full range
+and acknowledge high uncertainty.
+
+## Example 4: Bootstrap Confidence Intervals
+
+For formal inference about $n^*$, use bootstrap CIs:
+
+```{r bootstrap, eval=FALSE}
+result <- ml_sample_size(
+  task = "classification",
+  target = 0.80,
+  seed = 2026,
+  reps = 100,
+  bootstrap_ci = TRUE,  # Enable bootstrap
+  n_boot = 1000         # 1000 resamples
+)
+
+# View 95% CI (values will vary)
+result$recommend_n_ci
+# $ci_lower: 400   # Lower bound of 95% CI
+# $ci_upper: 800   # Upper bound of 95% CI
+# $ci_median: 600  # Bootstrap median
+```
+
+**Interpretation**: "The recommended sample size is n* = 600 (95% CI: 400-800)."
+
+## Example 5: Comparing Multiple Models
+
+Compare sample requirements across algorithms:
+
+```{r multi_model, eval=FALSE}
+result <- ml_sample_size(
+  task = "classification",
+  model = c("rf", "xgboost", "glm"),  # Compare 3 models
+  metric = "auc",
+  target = 0.80,
+  seed = 2026,
+  reps = 50
+)
+
+# View recommendations by model (values will vary)
+result$recommend_n
+# $rf:      600   # or higher depending on data
+# $xgboost: 600   # similar to RF
+# $glm:     200   # typically needs less data
+
+# GLM needs less data but may have lower asymptotic performance
+# RF/XGBoost need more data but achieve higher maximum AUC
+```
+
+**Trade-off**: Simpler models (GLM) reach targets with less data but have
+lower ceilings. Complex models (RF, XGBoost) need more data but achieve
+better asymptotic performance.
+
+## Example 6: Checking Fit Quality Before Extrapolation
+
+Always verify the power-law fit before extrapolating:
+
+```{r diagnostics, eval=FALSE}
+# Check fit diagnostics
+result$curve_diagnostics
+# $pseudo_r2: 0.967    # Good: > 0.95
+# $rmse_fit: 0.008     # Low fitting error
+# $fit_quality: "good" # Automatic classification
+
+# Fit quality interpretation:
+# - "good":       R² ≥ 0.95 (safe to extrapolate)
+# - "acceptable": R² ≥ 0.80 (extrapolate with caution)
+# - "poor":       R² < 0.80 (do not extrapolate)
+```
+
+## Example 7: Extrapolation Functions
+
+### Estimating N for a Specific Target
+
+```{r estimate_n, eval=FALSE}
+# What n is needed for AUC = 0.85?
+estimate_n(result, target_metric = 0.85)
+# [1] 1250
+
+# Warnings are issued if:
+# - Target exceeds asymptote
+# - n exceeds 2x max observed
+# - Fit quality is poor
+```
+
+### Finding the Plateau
+
+```{r plateau, eval=FALSE}
+# Where does performance plateau?
+
+# Absolute delta (within 0.01 of asymptote)
+estimate_n_plateau(result, delta = 0.01)
+# [1] 8500
+
+# Relative delta (within 1% of target)
+estimate_n_plateau(result, delta = 0.01, relative = TRUE)
+# Using relative delta: 0.01 x 0.8 = 0.008
+# [1] 12000
+```
+
+**Interpretation**: Beyond n = 8,500, additional data yields < 0.01 AUC improvement.
+
+## Example 8: Regression Tasks
+
+The method works for regression with appropriate metrics:
+
+```{r regression, eval=FALSE}
+result <- ml_sample_size(
+  task = "regression",
+  metric = "rmse",        # Or "mae", "r2"
+  target = 1.0,           # Target RMSE ≤ 1.0
+  target_dir = "lower_better",  # Auto-detected for RMSE
+  seed = 2026,
+  reps = 100,
+  sim_params = list(
+    p = 15,
+    noise_sd = 1.5  # Controls signal-to-noise ratio
+  )
+)
+```
+
+## Best Practices
+
+### 1. Start with Exploration
+
+```{r best1, eval=FALSE}
+# Quick exploration with low R
+result_explore <- ml_sample_size(
+  task = "classification",
+  target = 0.80,
+  seed = 2026,
+  reps = 30,
+  n_grid = seq(100, 1000, by = 100)
+)
+
+# Refine with higher R after identifying the region
+result_final <- ml_sample_size(
+  task = "classification",
+  target = 0.80,
+  seed = 2026,
+  reps = 200,
+  n_grid = c(300, 400, 500, 600, 700, 800)  # Focus on relevant range
+)
+```
+
+### 2. Always Check Diagnostics
+
+```{r best2, eval=FALSE}
+# Before extrapolating:
+if (result$curve_diagnostics$fit_quality == "poor") {
+  warning("Do not extrapolate - use only observed values")
+}
+```
+
+### 3. Report Uncertainty
+
+Good reporting practice:
+
+> "Using Monte Carlo simulation with R = 100 repetitions, we estimated
+> n* = 600 (95% CI: 400-800) to achieve AUC ≥ 0.80 with probability
+> ≥ 0.80. The power-law fit quality was good (pseudo-R² = 0.97)."
+
+### 4. Consider Hyperparameter Tuning
+
+The $n^*$ estimate assumes fixed hyperparameters. If you plan extensive tuning:
+
+```{r best4, eval=FALSE}
+# Add a safety margin (e.g., 20-30%)
+n_star <- result$recommend_n
+n_with_tuning <- ceiling(n_star * 1.25)
+```
+
+## Troubleshooting
+
+### Curve Fit Fails
+
+```{r trouble1, eval=FALSE}
+# If curve_fit is NULL or fit_quality is "poor":
+# 1. Increase reps
+result <- ml_sample_size(..., reps = 200)
+
+# 2. Expand n_grid range
+result <- ml_sample_size(..., n_grid = c(50, 100, 200, 500, 1000, 2000, 5000))
+
+# 3. Use only interpolation (don't extrapolate)
+```
+
+### High Variability in n*
+
+```{r trouble2, eval=FALSE}
+# If CV > 50% with multiple partitions:
+# 1. This is expected for small datasets - report the range
+# 2. Consider using the upper bound for safety
+# 3. Acknowledge uncertainty in your report
+```
+
+### Target Seems Unachievable
+
+```{r trouble3, eval=FALSE}
+# If recommend_n is NA or Inf:
+# 1. Check if target exceeds the asymptote
+result$curve_fit  # Look at coefficient 'a'
+
+# 2. Lower your target or increase signal strength
+result <- ml_sample_size(..., target = 0.75)  # Lower target
+
+# 3. Use a different algorithm
+result <- ml_sample_size(..., model = "glm")  # Simpler model
+```
+
+## Summary Table
+
+| Scenario | Recommendation |
+|----------|----------------|
+| **Exploratory** | R = 50, single partition |
+| **Standard** | R = 100, check diagnostics |
+| **Publication** | R ≥ 200, bootstrap CI |
+| **Small N (<1000)** | n_outer_splits = 5-10 |
+| **Extrapolation** | Verify R² > 0.95, n < 2× max observed |
+| **With tuning** | Add 20-30% safety margin |
+
+## References
+
+Ventura-Leon, J. (2026). Sample size estimation for machine learning via
+Monte Carlo simulation: Learning curves and power laws. *PsyArXiv*.
+https://doi.org/10.31234/osf.io/6xrtu_v1
+
+Figueroa, R. L., et al. (2012). Predicting sample size required for
+classification performance. *BMC Medical Informatics and Decision Making*,
+12, 8. https://doi.org/10.1186/1472-6947-12-8
+
+## Session Info
+
+```{r sessioninfo, eval=FALSE}
+sessionInfo()
+```

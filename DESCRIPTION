@@ -1,0 +1,107 @@
+Package: PsyML
+Type: Package
+Title: Machine Learning Workflows for Supervised, Unsupervised, and Causal Analysis
+Version: 2.4.2
+Date: 2026-10-25
+Authors@R: c(
+    person("Jose", "Ventura-Leon",
+           email = "jventuraleon@gmail.com",
+           role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-2996-4244"))
+    )
+Description: Provides single-function pipelines for applied machine learning
+    with tabular data, as commonly found in psychological, behavioral, and
+    health research. The supervised pipeline, supervised_ml(), performs
+    exploratory checks, preprocessing, training of several models with
+    cross-validation, hyperparameter tuning, test-set evaluation, threshold
+    optimization, calibration, fairness analysis, decision curve analysis,
+    and model interpretation with permutation importance and Shapley values.
+    The unsupervised pipeline, unsupervised_ml(), covers k-means,
+    hierarchical, DBSCAN, Gaussian mixture, and latent class clustering with
+    selection of the number of clusters, dimensionality reduction (PCA,
+    t-SNE, UMAP), and anomaly detection (isolation forest, local outlier
+    factor, Mahalanobis distance). The causal pipeline, causal_ml(), estimates
+    treatment effects with propensity scores, meta-learners, double machine
+    learning, causal forests, and targeted maximum likelihood estimation.
+    Also includes learning-curve based sample size estimation, block and
+    diversity-based data splitting, and export of results to text and JSON.
+License: MIT + file LICENSE
+URL: https://github.com/jventural/PsyML
+BugReports: https://github.com/jventural/PsyML/issues
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends:
+    R (>= 4.1.0)
+Imports:
+    dials,
+    dplyr,
+    ggplot2,
+    grDevices,
+    graphics,
+    hardhat,
+    jsonlite,
+    nnet,
+    parallel,
+    parsnip,
+    pROC,
+    ranger,
+    recipes,
+    rlang,
+    rsample,
+    stats,
+    tibble,
+    tidyr,
+    tidyselect,
+    tune,
+    utils,
+    workflows,
+    xgboost,
+    yardstick
+Suggests:
+    Boruta,
+    bslib,
+    cluster,
+    cobalt,
+    commonmark,
+    dbscan,
+    doParallel,
+    DoubleML,
+    DT,
+    e1071,
+    finetune,
+    flextable,
+    foreach,
+    ggdendro,
+    glmnet,
+    grf,
+    htmltools,
+    httr,
+    httr2,
+    isotree,
+    kernelshap,
+    kernlab,
+    knitr,
+    MatchIt,
+    mclust,
+    mlr3,
+    mlr3learners,
+    officer,
+    patchwork,
+    poLCA,
+    readxl,
+    reticulate,
+    rmarkdown,
+    rpart,
+    Rtsne,
+    shapviz,
+    shiny,
+    shinydashboard,
+    SuperLearner,
+    testthat (>= 3.0.0),
+    themis,
+    tmle,
+    umap,
+    VIM
+VignetteBuilder: knitr
+Config/testthat/edition: 3

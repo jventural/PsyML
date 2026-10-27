@@ -1,0 +1,116 @@
+---
+title: "Three Approaches: Supervised, Unsupervised, and Causal"
+author: "Jose Ventura-Leon"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Three Approaches: Supervised, Unsupervised, and Causal}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.width = 7,
+  fig.height = 5,
+  warning = FALSE,
+  message = FALSE
+)
+```
+
+PsyML is organized around three approaches to machine learning. Each one
+answers a different research question and is run by a single function:
+
+| Approach | Research question | Main function |
+|---|---|---|
+| Supervised learning | How well can we **predict** an outcome we already observe? | `supervised_ml()` |
+| Unsupervised learning | Are there **groups** or unusual cases when there is no outcome? | `unsupervised_ml()` |
+| Causal inference | What is the **effect** of a treatment or exposure on an outcome? | `causal_ml()` |
+
+The three functions return objects with `print()`, `summary()`, `plot()` and
+`predict()` methods. The examples below use small simulated data and fast
+settings so that they run in a few seconds; in real studies the defaults
+compare more models and use more resampling.
+
+```{r}
+library(PsyML)
+```
+
+## 1. Supervised learning: predicting a known outcome
+
+The outcome `y` is observed for every participant. `supervised_ml()` splits the
+data, trains the models with cross-validation, evaluates them on the test set
+and reports the best one.
+
+```{r}
+set.seed(1)
+n <- 200
+df <- data.frame(x1 = rnorm(n), x2 = rnorm(n), x3 = rnorm(n))
+df$y <- factor(ifelse(df$x1 + 0.5 * df$x2 + rnorm(n) > 0, "yes", "no"))
+
+sup <- supervised_ml(df, target = "y", models = "glm", cv_folds = 3,
+                     tune_best = FALSE, run_shap = FALSE, n_cores = 1,
+                     verbose = FALSE)
+sup
+```
+
+Each step of the pipeline is also available as a separate function, for
+example `preprocess_data()`, `train_models()`, `evaluate_model()`,
+`optimize_threshold()`, `analyze_fairness()` and `interpret_model()`.
+
+## 2. Unsupervised learning: finding groups without an outcome
+
+There is no outcome here: `unsupervised_ml()` compares clustering algorithms,
+chooses the number of clusters, reduces the dimensionality of the data and
+flags anomalous cases.
+
+```{r}
+set.seed(1)
+X <- data.frame(a = c(rnorm(40), rnorm(40, 3)),
+                b = c(rnorm(40), rnorm(40, 3)),
+                c = rnorm(80))
+
+uns <- unsupervised_ml(X,
+                       clustering_algorithms = c("kmeans", "hierarchical"),
+                       k_range = 2:4, reduction_methods = "pca",
+                       anomaly_methods = "mahalanobis",
+                       run_eda = FALSE, seed = 1, verbose = FALSE)
+uns$evaluation$comparison
+```
+
+`cluster_profile()` describes each cluster in terms of the original variables.
+
+## 3. Causal inference: estimating the effect of a treatment
+
+Here `x1` affects both who receives the treatment and the outcome, so a simple
+comparison of treated and untreated participants would be biased.
+`causal_ml()` adjusts for the covariates and estimates the treatment effect
+(the true effect in this simulation is 1.5).
+
+```{r}
+set.seed(1)
+n <- 300
+dc <- data.frame(x1 = rnorm(n), x2 = rnorm(n), x3 = rnorm(n))
+dc$treat <- rbinom(n, 1, plogis(dc$x1))
+dc$y <- 1.5 * dc$treat + dc$x1 + 0.5 * dc$x2 + rnorm(n)
+
+cau <- causal_ml(dc, treatment = "treat", outcome = "y",
+                 methods = c("propensity", "meta_learners"),
+                 ps_methods = c("ipw", "doubly_robust"),
+                 meta_learners = "T", run_eda = FALSE,
+                 seed = 1, verbose = FALSE)
+cau$summary_table
+```
+
+Double machine learning, causal forests and targeted maximum likelihood
+estimation are available through the `methods` and `run_tmle` arguments when
+their optional packages are installed.
+
+## Tools shared by the three approaches
+
+- `ml_sample_size()` estimates the sample size needed to reach a target
+  performance (see `vignette("sample-size-estimation", package = "PsyML")`).
+- `block_split()` and `diversity_split()` build train and test sets.
+- The `eda_*()` functions describe the data before modelling.
+- `export_verbose_txt()` and `export_verbose_json()` save the results.
