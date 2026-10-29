@@ -1,3 +1,14 @@
+# PsyML (development version)
+
+* Stratified splits now keep rare classes stratified: `rsample` pools strata
+  that hold less than 10% of the data, so with a rare outcome the train/test
+  split and the cross-validation folds were not stratified and the number of
+  positive cases varied between partitions. Classification splits now use
+  `pool = 0`.
+* `balance_method = "down"` failed in every model ("All models failed")
+  because `themis::step_downsample()` was called with `over_ratio` instead of
+  `under_ratio`.
+
 # PsyML 2.4.2
 
 First release under the name PsyML, prepared for CRAN.

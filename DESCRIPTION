@@ -1,7 +1,7 @@
 Package: PsyML
 Type: Package
 Title: Machine Learning Workflows for Supervised, Unsupervised, and Causal Analysis
-Version: 2.4.2
+Version: 2.4.2.9000
 Date: 2026-10-25
 Authors@R: c(
     person("Jose", "Ventura-Leon",

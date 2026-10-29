@@ -825,3 +825,22 @@ analyze_interactions_splines <- function(data, target, task,
 
   return(results)
 }
+
+
+#' Stratified rsample Call Without Pooling Rare Classes
+#'
+#' By default rsample pools strata that hold less than 10% of the data
+#' (`pool = 0.1`), so a rare class is merged with the majority one and the
+#' split is no longer stratified. For classification the call is run with
+#' `pool = 0` and the warning rsample emits about it is muffled.
+#' @param fn An rsample function (`initial_split` or `vfold_cv`).
+#' @param ... Arguments passed to `fn`, including `strata`.
+#' @noRd
+.strat_no_pool <- function(fn, ...) {
+  withCallingHandlers(
+    fn(..., pool = 0),
+    warning = function(w) {
+      if (grepl("Stratifying groups", conditionMessage(w))) invokeRestart("muffleWarning")
+    }
+  )
+}

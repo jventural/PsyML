@@ -244,8 +244,14 @@ prep_split <- function(data, target, task, test_split = 0.20, seed = NULL, verbo
   if (!is.null(seed)) set.seed(seed)
 
   # Estratificar siempre: por clase (clasificacion) o por cuartiles (regresion)
-  data_split <- rsample::initial_split(data, prop = 1 - test_split,
-                                       strata = !!rlang::sym(target))
+  # (en clasificacion sin agrupar las clases raras: ver .strat_no_pool)
+  if (task == "classification") {
+    data_split <- .strat_no_pool(rsample::initial_split, data, prop = 1 - test_split,
+                                 strata = !!rlang::sym(target))
+  } else {
+    data_split <- rsample::initial_split(data, prop = 1 - test_split,
+                                         strata = !!rlang::sym(target))
+  }
 
   train_data <- rsample::training(data_split)
   test_data <- rsample::testing(data_split)
@@ -575,7 +581,7 @@ prep_recipe <- function(data, target, task, impute = TRUE,
         "adasyn" = rec |> themis::step_adasyn(!!rlang::sym(target), over_ratio = 1),
         "rose" = rec |> themis::step_rose(!!rlang::sym(target), over_ratio = 1),
         "up" = rec |> themis::step_upsample(!!rlang::sym(target), over_ratio = 1),
-        "down" = rec |> themis::step_downsample(!!rlang::sym(target), over_ratio = 1)
+        "down" = rec |> themis::step_downsample(!!rlang::sym(target), under_ratio = 1)
       )
       balance_label <- toupper(balance_method)
       steps_applied <- c(steps_applied, paste0(balance_label, " (balanceo)"))

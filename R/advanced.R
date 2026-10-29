@@ -593,8 +593,8 @@ run_nested_cv <- function(data,
 
   # Crear folds externos
   if (task == "classification") {
-    outer_cv <- rsample::vfold_cv(data, v = outer_folds,
-                                   strata = !!rlang::sym(target))
+    outer_cv <- .strat_no_pool(rsample::vfold_cv, data, v = outer_folds,
+                               strata = !!rlang::sym(target))
   } else {
     outer_cv <- rsample::vfold_cv(data, v = outer_folds)
   }
@@ -622,8 +622,8 @@ run_nested_cv <- function(data,
 
     # Crear folds internos
     if (task == "classification") {
-      inner_cv <- rsample::vfold_cv(train_outer, v = inner_folds,
-                                     strata = !!rlang::sym(target))
+      inner_cv <- .strat_no_pool(rsample::vfold_cv, train_outer, v = inner_folds,
+                                 strata = !!rlang::sym(target))
     } else {
       inner_cv <- rsample::vfold_cv(train_outer, v = inner_folds)
     }
@@ -1193,7 +1193,8 @@ cv_feature_selection <- function(data,
 
   # Crear folds
   if (task == "classification") {
-    folds <- rsample::vfold_cv(data, v = cv_folds, strata = !!rlang::sym(target))
+    folds <- .strat_no_pool(rsample::vfold_cv, data, v = cv_folds,
+                            strata = !!rlang::sym(target))
   } else {
     folds <- rsample::vfold_cv(data, v = cv_folds)
   }

@@ -148,7 +148,8 @@ setup_cv <- function(train_data, target, task, cv_folds = 10, seed = NULL, verbo
   if (!is.null(seed)) set.seed(seed)
 
   if (task == "classification") {
-    folds <- rsample::vfold_cv(
+    folds <- .strat_no_pool(
+      rsample::vfold_cv,
       train_data,
       v = cv_folds,
       strata = !!rlang::sym(target)
